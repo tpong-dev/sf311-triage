@@ -1,0 +1,917 @@
+{
+ "snapshot": "2026-11-02 23:59:37",
+ "splits": {
+  "train": [
+   "2025-12-01",
+   "2026-07-31",
+   491537
+  ],
+  "val": [
+   "2026-08-01",
+   "2026-08-31",
+   65419
+  ],
+  "test": [
+   "2026-09-01",
+   "2026-09-30",
+   66469
+  ],
+  "oct_7d_check": [
+   "2026-10-01",
+   "2026-10-26",
+   57836
+  ]
+ },
+ "late7d": {
+  "threshold": 0.34211440290997125,
+  "baseline_threshold": 0.25254237288135595,
+  "test": {
+   "LightGBM": {
+    "n": 66469,
+    "late_rate": 0.1564488709022251,
+    "n_late": 10399,
+    "ROC_AUC": 0.9438470507403778,
+    "PR_AUC": 0.7757445821194991,
+    "precision": 0.6826079005120702,
+    "recall": 0.7178574862967593,
+    "F1": 0.6997890789782049,
+    "late_caught": 7465
+   },
+   "LightGBM (no agency)": {
+    "n": 66469,
+    "late_rate": 0.1564488709022251,
+    "n_late": 10399,
+    "ROC_AUC": 0.9188368697495007,
+    "PR_AUC": 0.7088681604470811,
+    "precision": 0.6284251190369239,
+    "recall": 0.672660832772382,
+    "F1": 0.6497909893172318,
+    "late_caught": 6995
+   },
+   "Subtype late-rate": {
+    "n": 66469,
+    "late_rate": 0.1564488709022251,
+    "n_late": 10399,
+    "ROC_AUC": 0.8469675105093808,
+    "PR_AUC": 0.5773519987123426,
+    "precision": 0.5738707785133663,
+    "recall": 0.6585248581594384,
+    "F1": 0.6132903456922801,
+    "late_caught": 6848
+   },
+   "Majority (never late)": {
+    "n": 66469,
+    "late_rate": 0.1564488709022251,
+    "n_late": 10399,
+    "ROC_AUC": 0.5,
+    "PR_AUC": 0.1564488709022251,
+    "precision": 0.0,
+    "recall": 0.0,
+    "F1": 0.0,
+    "late_caught": 0
+   }
+  },
+  "oct_7d_check": {
+   "LightGBM": {
+    "n": 57836,
+    "late_rate": 0.17158862991908155,
+    "n_late": 9924,
+    "ROC_AUC": 0.9248960681072629,
+    "PR_AUC": 0.7443122135505693,
+    "precision": 0.6779244703715075,
+    "recall": 0.6674727932285369,
+    "F1": 0.6726580350342727,
+    "late_caught": 6624
+   },
+   "LightGBM (no agency)": {
+    "n": 57836,
+    "late_rate": 0.17158862991908155,
+    "n_late": 9924,
+    "ROC_AUC": 0.9009395327514659,
+    "PR_AUC": 0.6757474594330007,
+    "precision": 0.6248986212489862,
+    "recall": 0.6211205159209996,
+    "F1": 0.6230038407115424,
+    "late_caught": 6164
+   },
+   "Subtype late-rate": {
+    "n": 57836,
+    "late_rate": 0.17158862991908155,
+    "n_late": 9924,
+    "ROC_AUC": 0.8206589608491558,
+    "PR_AUC": 0.5538832863040207,
+    "precision": 0.5751056473300038,
+    "recall": 0.6033857315598549,
+    "F1": 0.588906372934697,
+    "late_caught": 5988
+   },
+   "Majority (never late)": {
+    "n": 57836,
+    "late_rate": 0.17158862991908155,
+    "n_late": 9924,
+    "ROC_AUC": 0.5,
+    "PR_AUC": 0.17158862991908155,
+    "precision": 0.0,
+    "recall": 0.0,
+    "F1": 0.0,
+    "late_caught": 0
+   }
+  },
+  "per_category": [
+   {
+    "service_name": "Street and Sidewalk Cleaning",
+    "model": "LightGBM",
+    "n": 25899,
+    "late_rate": 0.06451986563187768,
+    "n_late": 1671,
+    "ROC_AUC": 0.9098570685015395,
+    "PR_AUC": 0.4434275188698236,
+    "precision": 0.488871834228703,
+    "recall": 0.3812088569718731,
+    "F1": 0.42837928715534634,
+    "late_caught": 637
+   },
+   {
+    "service_name": "Street and Sidewalk Cleaning",
+    "model": "Subtype late-rate",
+    "n": 25899,
+    "late_rate": 0.06451986563187768,
+    "n_late": 1671,
+    "ROC_AUC": 0.5005984440454817,
+    "PR_AUC": 0.06563953066403581,
+    "precision": 1.0,
+    "recall": 0.0011968880909634949,
+    "F1": 0.002390914524805738,
+    "late_caught": 2
+   },
+   {
+    "service_name": "Parking Enforcement",
+    "model": "LightGBM",
+    "n": 16224,
+    "late_rate": 0.05498027613412229,
+    "n_late": 892,
+    "ROC_AUC": 0.9843838658031094,
+    "PR_AUC": 0.8284242438658388,
+    "precision": 0.8253382533825339,
+    "recall": 0.7522421524663677,
+    "F1": 0.7870967741935484,
+    "late_caught": 671
+   },
+   {
+    "service_name": "Parking Enforcement",
+    "model": "Subtype late-rate",
+    "n": 16224,
+    "late_rate": 0.05498027613412229,
+    "n_late": 892,
+    "ROC_AUC": 0.7774790174774411,
+    "PR_AUC": 0.13544214920872585,
+    "precision": 1.0,
+    "recall": 0.01569506726457399,
+    "F1": 0.03090507726269316,
+    "late_caught": 14
+   },
+   {
+    "service_name": "General Request",
+    "model": "LightGBM",
+    "n": 4512,
+    "late_rate": 0.15381205673758866,
+    "n_late": 694,
+    "ROC_AUC": 0.9273511789294755,
+    "PR_AUC": 0.7491563210741073,
+    "precision": 0.6111786148238153,
+    "recall": 0.7247838616714697,
+    "F1": 0.6631509558338826,
+    "late_caught": 503
+   },
+   {
+    "service_name": "General Request",
+    "model": "Subtype late-rate",
+    "n": 4512,
+    "late_rate": 0.15381205673758866,
+    "n_late": 694,
+    "ROC_AUC": 0.7740437379136896,
+    "PR_AUC": 0.326331454082262,
+    "precision": 0.33519865696698375,
+    "recall": 0.8631123919308358,
+    "F1": 0.48286981056025796,
+    "late_caught": 599
+   },
+   {
+    "service_name": "Graffiti Public",
+    "model": "LightGBM",
+    "n": 3567,
+    "late_rate": 0.5943369778525371,
+    "n_late": 2120,
+    "ROC_AUC": 0.7417247460588596,
+    "PR_AUC": 0.8126577668522698,
+    "precision": 0.7228430934286991,
+    "recall": 0.7627358490566037,
+    "F1": 0.7422538443883406,
+    "late_caught": 1617
+   },
+   {
+    "service_name": "Graffiti Public",
+    "model": "Subtype late-rate",
+    "n": 3567,
+    "late_rate": 0.5943369778525371,
+    "n_late": 2120,
+    "ROC_AUC": 0.4984942822495469,
+    "PR_AUC": 0.593766106698981,
+    "precision": 0.5943369778525371,
+    "recall": 1.0,
+    "F1": 0.7455600492350976,
+    "late_caught": 2120
+   },
+   {
+    "service_name": "Encampment",
+    "model": "LightGBM",
+    "n": 2868,
+    "late_rate": 0.10634588563458856,
+    "n_late": 305,
+    "ROC_AUC": 0.7570015926520536,
+    "PR_AUC": 0.33315469294181493,
+    "precision": 0.39303482587064675,
+    "recall": 0.25901639344262295,
+    "F1": 0.31225296442687744,
+    "late_caught": 79
+   },
+   {
+    "service_name": "Encampment",
+    "model": "Subtype late-rate",
+    "n": 2868,
+    "late_rate": 0.10634588563458856,
+    "n_late": 305,
+    "ROC_AUC": 0.5,
+    "PR_AUC": 0.10634588563458856,
+    "precision": 0.0,
+    "recall": 0.0,
+    "F1": 0.0,
+    "late_caught": 0
+   },
+   {
+    "service_name": "Blocked Street and Sidewalk",
+    "model": "LightGBM",
+    "n": 2081,
+    "late_rate": 0.0845747236905334,
+    "n_late": 176,
+    "ROC_AUC": 0.9365962777380101,
+    "PR_AUC": 0.6037867386702285,
+    "precision": 0.5513513513513514,
+    "recall": 0.5795454545454546,
+    "F1": 0.5650969529085873,
+    "late_caught": 102
+   },
+   {
+    "service_name": "Blocked Street and Sidewalk",
+    "model": "Subtype late-rate",
+    "n": 2081,
+    "late_rate": 0.0845747236905334,
+    "n_late": 176,
+    "ROC_AUC": 0.6027514316392268,
+    "PR_AUC": 0.166191774210806,
+    "precision": 0.44086021505376344,
+    "recall": 0.23295454545454544,
+    "F1": 0.3048327137546468,
+    "late_caught": 41
+   },
+   {
+    "service_name": "Noise",
+    "model": "LightGBM",
+    "n": 1437,
+    "late_rate": 0.116214335421016,
+    "n_late": 167,
+    "ROC_AUC": 0.9533877127634495,
+    "PR_AUC": 0.6626319898810203,
+    "precision": 0.6351351351351351,
+    "recall": 0.562874251497006,
+    "F1": 0.5968253968253968,
+    "late_caught": 94
+   },
+   {
+    "service_name": "Noise",
+    "model": "Subtype late-rate",
+    "n": 1437,
+    "late_rate": 0.116214335421016,
+    "n_late": 167,
+    "ROC_AUC": 0.9254632467348767,
+    "PR_AUC": 0.4980180619800166,
+    "precision": 0.4820717131474104,
+    "recall": 0.7245508982035929,
+    "F1": 0.5789473684210527,
+    "late_caught": 121
+   },
+   {
+    "service_name": "Graffiti Private",
+    "model": "LightGBM",
+    "n": 1370,
+    "late_rate": 0.743065693430657,
+    "n_late": 1018,
+    "ROC_AUC": 0.7219327670119664,
+    "PR_AUC": 0.8720951406487747,
+    "precision": 0.7853810264385692,
+    "recall": 0.9921414538310412,
+    "F1": 0.8767361111111112,
+    "late_caught": 1010
+   },
+   {
+    "service_name": "Graffiti Private",
+    "model": "Subtype late-rate",
+    "n": 1370,
+    "late_rate": 0.743065693430657,
+    "n_late": 1018,
+    "ROC_AUC": 0.4695006920878728,
+    "PR_AUC": 0.7319044863487689,
+    "precision": 0.743065693430657,
+    "recall": 1.0,
+    "F1": 0.8525963149078727,
+    "late_caught": 1018
+   },
+   {
+    "service_name": "Tree Maintenance",
+    "model": "LightGBM",
+    "n": 1221,
+    "late_rate": 0.8787878787878788,
+    "n_late": 1073,
+    "ROC_AUC": 0.8702173748772071,
+    "PR_AUC": 0.9754323513402089,
+    "precision": 0.9175347222222222,
+    "recall": 0.9850885368126747,
+    "F1": 0.9501123595505618,
+    "late_caught": 1057
+   },
+   {
+    "service_name": "Tree Maintenance",
+    "model": "Subtype late-rate",
+    "n": 1221,
+    "late_rate": 0.8787878787878788,
+    "n_late": 1073,
+    "ROC_AUC": 0.7422294148761995,
+    "PR_AUC": 0.9374897792154161,
+    "precision": 0.8787878787878788,
+    "recall": 1.0,
+    "F1": 0.9354838709677419,
+    "late_caught": 1073
+   },
+   {
+    "service_name": "RPD General",
+    "model": "LightGBM",
+    "n": 1049,
+    "late_rate": 0.29837940896091514,
+    "n_late": 313,
+    "ROC_AUC": 0.7913772746214752,
+    "PR_AUC": 0.6269088875173858,
+    "precision": 0.49876543209876545,
+    "recall": 0.645367412140575,
+    "F1": 0.5626740947075209,
+    "late_caught": 202
+   },
+   {
+    "service_name": "RPD General",
+    "model": "Subtype late-rate",
+    "n": 1049,
+    "late_rate": 0.29837940896091514,
+    "n_late": 313,
+    "ROC_AUC": 0.6190291186275871,
+    "PR_AUC": 0.3732140433916353,
+    "precision": 0.40476190476190477,
+    "recall": 0.5431309904153354,
+    "F1": 0.4638472032742155,
+    "late_caught": 170
+   }
+  ],
+  "min_recall_categories": [
+   {
+    "service_name": "Encampment",
+    "n": 2868,
+    "n_late": 305,
+    "recall": 0.25901639344262295,
+    "precision": 0.39303482587064675,
+    "ROC_AUC": 0.7570015926520536
+   },
+   {
+    "service_name": "Muni Service Feedback",
+    "n": 673,
+    "n_late": 102,
+    "recall": 0.3235294117647059,
+    "precision": 0.38823529411764707,
+    "ROC_AUC": 0.7902029463273926
+   },
+   {
+    "service_name": "Streetlights",
+    "n": 325,
+    "n_late": 72,
+    "recall": 0.3611111111111111,
+    "precision": 0.7222222222222222,
+    "ROC_AUC": 0.7063296003513394
+   },
+   {
+    "service_name": "Street and Sidewalk Cleaning",
+    "n": 25899,
+    "n_late": 1671,
+    "recall": 0.3812088569718731,
+    "precision": 0.488871834228703,
+    "ROC_AUC": 0.9098570685015395
+   },
+   {
+    "service_name": "Muni Employee Feedback",
+    "n": 556,
+    "n_late": 177,
+    "recall": 0.5254237288135594,
+    "precision": 0.4603960396039604,
+    "ROC_AUC": 0.6820804078529583
+   },
+   {
+    "service_name": "Noise",
+    "n": 1437,
+    "n_late": 167,
+    "recall": 0.562874251497006,
+    "precision": 0.6351351351351351,
+    "ROC_AUC": 0.9533877127634495
+   },
+   {
+    "service_name": "Blocked Street and Sidewalk",
+    "n": 2081,
+    "n_late": 176,
+    "recall": 0.5795454545454546,
+    "precision": 0.5513513513513514,
+    "ROC_AUC": 0.9365962777380101
+   },
+   {
+    "service_name": "RPD General",
+    "n": 1049,
+    "n_late": 313,
+    "recall": 0.645367412140575,
+    "precision": 0.49876543209876545,
+    "ROC_AUC": 0.7913772746214752
+   }
+  ],
+  "n_categories_ge30_late": 22,
+  "n_categories_zero_recall": 0
+ },
+ "reg_cap30": {
+  "test": {
+   "LightGBM": {
+    "n": 66469,
+    "MAE_h": 62.26852362993431,
+    "MedAE_h": 5.220718989391379,
+    "MAE_log": 0.7287448833519765,
+    "R2_log": 0.6828920527701234,
+    "R2_h": 0.48706007480709945
+   },
+   "Subtype median": {
+    "n": 66469,
+    "MAE_h": 79.87952645844932,
+    "MedAE_h": 8.864305555555555,
+    "MAE_log": 1.1502209444415097,
+    "R2_log": 0.3644392370359397,
+    "R2_h": 0.2649358493999736
+   },
+   "Global median": {
+    "n": 66469,
+    "MAE_h": 102.54943175264661,
+    "MedAE_h": 12.985277777777782,
+    "MAE_log": 1.609634521393298,
+    "R2_log": -0.0019857956370508134,
+    "R2_h": -0.180231898738338
+   }
+  },
+  "per_category": [
+   {
+    "service_name": "Street and Sidewalk Cleaning",
+    "model": "LightGBM",
+    "n": 25899,
+    "MAE_h": 35.03619650193131,
+    "MedAE_h": 2.1328794899653563,
+    "MAE_log": 0.7224815117766696,
+    "R2_log": 0.551852310102658,
+    "R2_h": 0.1981735756293942
+   },
+   {
+    "service_name": "Street and Sidewalk Cleaning",
+    "model": "Subtype median",
+    "n": 25899,
+    "MAE_h": 43.00107561531763,
+    "MedAE_h": 8.385416666666668,
+    "MAE_log": 1.3726225120720956,
+    "R2_log": -0.0018491088154801716,
+    "R2_h": -0.08439512427288842
+   },
+   {
+    "service_name": "Street and Sidewalk Cleaning",
+    "model": "Global median",
+    "n": 25899,
+    "MAE_h": 43.72055303508072,
+    "MedAE_h": 12.758611111111115,
+    "MAE_log": 1.426549800719841,
+    "R2_log": -0.09458091046022621,
+    "R2_h": -0.0609521332147267
+   },
+   {
+    "service_name": "Parking Enforcement",
+    "model": "LightGBM",
+    "n": 16224,
+    "MAE_h": 15.434546242746068,
+    "MedAE_h": 1.5959593092595439,
+    "MAE_log": 0.4815382941759094,
+    "R2_log": 0.7164345018819704,
+    "R2_h": 0.8507840921769699
+   },
+   {
+    "service_name": "Parking Enforcement",
+    "model": "Subtype median",
+    "n": 16224,
+    "MAE_h": 37.93784618637684,
+    "MedAE_h": 1.557361111111111,
+    "MAE_log": 0.7322645209911023,
+    "R2_log": 0.18804241940625976,
+    "R2_h": -0.006178843008279422
+   },
+   {
+    "service_name": "Parking Enforcement",
+    "model": "Global median",
+    "n": 16224,
+    "MAE_h": 45.95488241014684,
+    "MedAE_h": 11.921250000000002,
+    "MAE_log": 1.3660501220495358,
+    "R2_log": -0.22222089365536113,
+    "R2_h": -0.042391375658477504
+   },
+   {
+    "service_name": "General Request",
+    "model": "LightGBM",
+    "n": 4512,
+    "MAE_h": 72.73574859608948,
+    "MedAE_h": 16.63854790375213,
+    "MAE_log": 0.9232964683614949,
+    "R2_log": 0.5295199387354808,
+    "R2_h": 0.41475889231098084
+   },
+   {
+    "service_name": "General Request",
+    "model": "Subtype median",
+    "n": 4512,
+    "MAE_h": 105.37484864435581,
+    "MedAE_h": 29.212569444444433,
+    "MAE_log": 1.3949888139302091,
+    "R2_log": 0.019520267367321376,
+    "R2_h": -0.053961099121797806
+   },
+   {
+    "service_name": "General Request",
+    "model": "Global median",
+    "n": 4512,
+    "MAE_h": 109.7637344242514,
+    "MedAE_h": 14.19833333333333,
+    "MAE_log": 1.5020292114637888,
+    "R2_log": -0.10716698938065838,
+    "R2_h": -0.22408451651973005
+   },
+   {
+    "service_name": "Graffiti Public",
+    "model": "LightGBM",
+    "n": 3567,
+    "MAE_h": 253.24453038144344,
+    "MedAE_h": 170.7874402389113,
+    "MAE_log": 1.2596042597225865,
+    "R2_log": 0.16507448416877746,
+    "R2_h": -0.25224079185033643
+   },
+   {
+    "service_name": "Graffiti Public",
+    "model": "Subtype median",
+    "n": 3567,
+    "MAE_h": 290.5602557393391,
+    "MedAE_h": 234.11791666666664,
+    "MAE_log": 1.4307575381003872,
+    "R2_log": -0.06279058797689308,
+    "R2_h": -0.180426924780412
+   },
+   {
+    "service_name": "Graffiti Public",
+    "model": "Global median",
+    "n": 3567,
+    "MAE_h": 355.75918481138837,
+    "MedAE_h": 290.9030555555556,
+    "MAE_log": 2.5598061959840486,
+    "R2_log": -1.7125063672308105,
+    "R2_h": -1.3281211109601658
+   },
+   {
+    "service_name": "Encampment",
+    "model": "LightGBM",
+    "n": 2868,
+    "MAE_h": 69.04910099015605,
+    "MedAE_h": 16.23607481594638,
+    "MAE_log": 0.9706649297724674,
+    "R2_log": 0.3117425155376463,
+    "R2_h": -0.01935764574529686
+   },
+   {
+    "service_name": "Encampment",
+    "model": "Subtype median",
+    "n": 2868,
+    "MAE_h": 76.70626336587634,
+    "MedAE_h": 29.614305555555553,
+    "MAE_log": 1.2399901944544163,
+    "R2_log": -0.03009182039529712,
+    "R2_h": -0.09366504737782866
+   },
+   {
+    "service_name": "Encampment",
+    "model": "Global median",
+    "n": 2868,
+    "MAE_h": 78.49988793971796,
+    "MedAE_h": 13.96041666666667,
+    "MAE_log": 1.34870297260152,
+    "R2_log": -0.1419762262517006,
+    "R2_h": -0.18539526193101907
+   },
+   {
+    "service_name": "Blocked Street and Sidewalk",
+    "model": "LightGBM",
+    "n": 2081,
+    "MAE_h": 40.1245103940631,
+    "MedAE_h": 1.2161783959007606,
+    "MAE_log": 0.6922507162266053,
+    "R2_log": 0.7158768003360412,
+    "R2_h": 0.35706014795074104
+   },
+   {
+    "service_name": "Blocked Street and Sidewalk",
+    "model": "Subtype median",
+    "n": 2081,
+    "MAE_h": 52.50122624005554,
+    "MedAE_h": 1.0233333333333334,
+    "MAE_log": 1.1974654981610662,
+    "R2_log": 0.008591396993515521,
+    "R2_h": -0.03407741069498105
+   },
+   {
+    "service_name": "Blocked Street and Sidewalk",
+    "model": "Global median",
+    "n": 2081,
+    "MAE_h": 59.830407923541046,
+    "MedAE_h": 14.164722222222226,
+    "MAE_log": 1.9928085506515651,
+    "R2_log": -0.3889137673819334,
+    "R2_h": -0.06080272496399686
+   },
+   {
+    "service_name": "Noise",
+    "model": "LightGBM",
+    "n": 1437,
+    "MAE_h": 32.31408350463684,
+    "MedAE_h": 4.570147402647864,
+    "MAE_log": 0.38753210877971156,
+    "R2_log": 0.6758950512364402,
+    "R2_h": 0.39555437204935373
+   },
+   {
+    "service_name": "Noise",
+    "model": "Subtype median",
+    "n": 1437,
+    "MAE_h": 46.04026241011366,
+    "MedAE_h": 23.724444444444433,
+    "MAE_log": 0.8093932486937083,
+    "R2_log": 0.2520585792507719,
+    "R2_h": 0.28977455525663176
+   },
+   {
+    "service_name": "Noise",
+    "model": "Global median",
+    "n": 1437,
+    "MAE_h": 60.719254426660484,
+    "MedAE_h": 17.134444444444433,
+    "MAE_log": 1.1409545208219218,
+    "R2_log": -0.394866997273319,
+    "R2_h": -0.25793571309131336
+   },
+   {
+    "service_name": "Graffiti Private",
+    "model": "LightGBM",
+    "n": 1370,
+    "MAE_h": 233.46569923458964,
+    "MedAE_h": 196.37044592323042,
+    "MAE_log": 0.8584964920426424,
+    "R2_log": 0.225428209477065,
+    "R2_h": 0.009881877912647274
+   },
+   {
+    "service_name": "Graffiti Private",
+    "model": "Subtype median",
+    "n": 1370,
+    "MAE_h": 348.11933901054346,
+    "MedAE_h": 479.67847222222247,
+    "MAE_log": 1.2380162769769556,
+    "R2_log": -0.01388185181253676,
+    "R2_h": -0.7097121430107203
+   },
+   {
+    "service_name": "Graffiti Private",
+    "model": "Global median",
+    "n": 1370,
+    "MAE_h": 473.39797039740483,
+    "MedAE_h": 705.4233333333335,
+    "MAE_log": 2.997792036520519,
+    "R2_log": -3.8798795051999644,
+    "R2_h": -2.561944705321207
+   },
+   {
+    "service_name": "Tree Maintenance",
+    "model": "LightGBM",
+    "n": 1221,
+    "MAE_h": 116.65716044925779,
+    "MedAE_h": 50.57918875976861,
+    "MAE_log": 0.3853122598421936,
+    "R2_log": 0.36191387216290494,
+    "R2_h": 0.16090923395892065
+   },
+   {
+    "service_name": "Tree Maintenance",
+    "model": "Subtype median",
+    "n": 1221,
+    "MAE_h": 95.71015674765678,
+    "MedAE_h": 0.0,
+    "MAE_log": 0.42461206592562806,
+    "R2_log": -0.1375648967480365,
+    "R2_h": -0.1774070592330843
+   },
+   {
+    "service_name": "Tree Maintenance",
+    "model": "Global median",
+    "n": 1221,
+    "MAE_h": 610.3153660478661,
+    "MedAE_h": 705.4233333333335,
+    "MAE_log": 3.482815217692436,
+    "R2_log": -8.873524740939446,
+    "R2_h": -7.199560795249283
+   },
+   {
+    "service_name": "RPD General",
+    "model": "LightGBM",
+    "n": 1049,
+    "MAE_h": 110.89606116865694,
+    "MedAE_h": 48.675451018470625,
+    "MAE_log": 0.8691966775641484,
+    "R2_log": 0.5178757474435084,
+    "R2_h": 0.2339296641414078
+   },
+   {
+    "service_name": "RPD General",
+    "model": "Subtype median",
+    "n": 1049,
+    "MAE_h": 136.40861322953077,
+    "MedAE_h": 51.67333333333334,
+    "MAE_log": 1.2025515527280723,
+    "R2_log": 0.10076489324244697,
+    "R2_h": -0.10928723197810353
+   },
+   {
+    "service_name": "RPD General",
+    "model": "Global median",
+    "n": 1049,
+    "MAE_h": 158.72853008155917,
+    "MedAE_h": 57.102777777777746,
+    "MAE_log": 1.8376337078031781,
+    "R2_log": -0.7935646668441949,
+    "R2_h": -0.51929918249418
+   }
+  ]
+ },
+ "reg_closed": {
+  "test": {
+   "LightGBM": {
+    "n": 61291,
+    "MAE_h": 42.17910385277259,
+    "MedAE_h": 4.295776045443309,
+    "MAE_log": 0.7377767536720196,
+    "R2_log": 0.6245510292547414,
+    "R2_h": 0.25454211962764295
+   },
+   "Subtype median": {
+    "n": 61291,
+    "MAE_h": 48.083301400060556,
+    "MedAE_h": 7.793194444444447,
+    "MAE_log": 1.0753325219745673,
+    "R2_log": 0.3028154918508149,
+    "R2_h": 0.14173116705962885
+   },
+   "Global median": {
+    "n": 61291,
+    "MAE_h": 54.01962592840348,
+    "MedAE_h": 11.074722222222224,
+    "MAE_log": 1.4098646231077985,
+    "R2_log": -0.0032966896157433645,
+    "R2_h": -0.09719087599882803
+   }
+  },
+  "test_closed_share": 0.9220990236049887
+ },
+ "importance": [
+  {
+   "feature": "agency_responsible",
+   "gain_clf": 0.3634896739913167,
+   "gain_reg": 0.40302283469670536
+  },
+  {
+   "feature": "service_subtype",
+   "gain_clf": 0.20258707667375023,
+   "gain_reg": 0.07485117000738467
+  },
+  {
+   "feature": "service_details",
+   "gain_clf": 0.09203385315931628,
+   "gain_reg": 0.08089121120071527
+  },
+  {
+   "feature": "service_name",
+   "gain_clf": 0.07985969589580433,
+   "gain_reg": 0.0256032019951914
+  },
+  {
+   "feature": "open_agency_at_t",
+   "gain_clf": 0.07456601826341624,
+   "gain_reg": 0.08000895682168141
+  },
+  {
+   "feature": "analysis_neighborhood",
+   "gain_clf": 0.035391704603825125,
+   "gain_reg": 0.04898211168981643
+  },
+  {
+   "feature": "hour",
+   "gain_clf": 0.029384091578184186,
+   "gain_reg": 0.10456145429784842
+  },
+  {
+   "feature": "open_name_at_t",
+   "gain_clf": 0.017563142366456227,
+   "gain_reg": 0.02086410198793128
+  },
+  {
+   "feature": "n_name_prev_7d",
+   "gain_clf": 0.015033775684197797,
+   "gain_reg": 0.01595105191115526
+  },
+  {
+   "feature": "open_subtype_at_t",
+   "gain_clf": 0.014395865833343364,
+   "gain_reg": 0.018899905810293903
+  },
+  {
+   "feature": "n_subtype_prev_7d",
+   "gain_clf": 0.013490542140802565,
+   "gain_reg": 0.015665504984765023
+  },
+  {
+   "feature": "lat",
+   "gain_clf": 0.012447846997726565,
+   "gain_reg": 0.012192196548898193
+  },
+  {
+   "feature": "long",
+   "gain_clf": 0.01152092256613511,
+   "gain_reg": 0.011532738919027025
+  },
+  {
+   "feature": "n_city_prev_1d",
+   "gain_clf": 0.00891626229459963,
+   "gain_reg": 0.019960733671545813
+  },
+  {
+   "feature": "police_district",
+   "gain_clf": 0.00668166363003409,
+   "gain_reg": 0.008790629624459083
+  },
+  {
+   "feature": "supervisor_district",
+   "gain_clf": 0.006647021519996554,
+   "gain_reg": 0.008039397302696464
+  },
+  {
+   "feature": "n_subtype_prev_1d",
+   "gain_clf": 0.006601542800120785,
+   "gain_reg": 0.013164771070275486
+  },
+  {
+   "feature": "weekday",
+   "gain_clf": 0.004465357945122775,
+   "gain_reg": 0.03168055753971327
+  },
+  {
+   "feature": "source",
+   "gain_clf": 0.004306514879500698,
+   "gain_reg": 0.0033165523260088336
+  },
+  {
+   "feature": "has_photo",
+   "gain_clf": 0.0004845748984470317,
+   "gain_reg": 0.0007903890563172367
+  },
+  {
+   "feature": "is_weekend",
+   "gain_clf": 0.00013285227790373408,
+   "gain_reg": 0.001230528537570193
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+# Data and photos never go into the image.
+data/
+notebooks/
+docs/
+.venv/
+.git/
+.github/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.env
+# Models are mounted at runtime by default; delete this line to bake them in.
+models/

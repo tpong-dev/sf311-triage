@@ -1,0 +1,8 @@
+requests>=2.32
+pandas>=2.2
+pyarrow>=17
+matplotlib>=3.8
+jupyter>=1.0
+nbformat>=5.9
+nbconvert>=7.16
+ipykernel>=6.29

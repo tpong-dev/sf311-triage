@@ -1,0 +1,2356 @@
+{
+ "agency_by_label": {
+  "Blocked Street and Sidewalk": "MTA - Access/Mobility Services Received",
+  "Encampment": "Healthy Streets Operation Center",
+  "General Request": "Healthy Streets Operation Center",
+  "Graffiti Private": "PW - Street and Environmental Services",
+  "Graffiti Public": "PW - Street and Environmental Services",
+  "Litter Receptacle Maintenance": "Recology - Litter",
+  "Parking Enforcement": "MTA - Parking Enforcement Dispatch",
+  "RPD General": "RPD - PSA",
+  "Sewer": "PW - Street and Environmental Services",
+  "Sidewalk and Curb": "PW - Street Use and Mapping",
+  "Street and Sidewalk Cleaning": "PW - Street and Environmental Services",
+  "Tree Maintenance": "PW - Street and Environmental Services"
+ },
+ "built_from": "2025-11-01 to 2026-07-31 (training split)",
+ "by_category": {
+  "311 Complaints": {
+   "median_hours": 88.15,
+   "n": 54,
+   "p_late": 0.3889
+  },
+  "Blocked Street and Sidewalk": {
+   "median_hours": 1.23,
+   "n": 10531,
+   "p_late": 0.084
+  },
+  "Citations Payment Status": {
+   "median_hours": 28.58,
+   "n": 52,
+   "p_late": 0.0192
+  },
+  "Citations Protest Status": {
+   "median_hours": 26.49,
+   "n": 54,
+   "p_late": 0.0
+  },
+  "Citations Questions Comments": {
+   "median_hours": 30.85,
+   "n": 111,
+   "p_late": 0.045
+  },
+  "Damage Property": {
+   "median_hours": 45.13,
+   "n": 4723,
+   "p_late": 0.1122
+  },
+  "Encampment": {
+   "median_hours": 23.9,
+   "n": 18942,
+   "p_late": 0.0549
+  },
+  "General Request": {
+   "median_hours": 21.73,
+   "n": 29605,
+   "p_late": 0.1173
+  },
+  "Graffiti Private": {
+   "median_hours": 236.29,
+   "n": 10858,
+   "p_late": 0.5683
+  },
+  "Graffiti Public": {
+   "median_hours": 148.09,
+   "n": 38289,
+   "p_late": 0.4812
+  },
+  "Illegal Postings": {
+   "median_hours": 140.01,
+   "n": 1377,
+   "p_late": 0.4611
+  },
+  "Litter Receptacle Maintenance": {
+   "median_hours": 27.05,
+   "n": 6568,
+   "p_late": 0.1653
+  },
+  "MTA Parking Traffic Signs High Priority": {
+   "median_hours": 96.2,
+   "n": 713,
+   "p_late": 0.4011
+  },
+  "MTA Parking Traffic Signs Normal Priority": {
+   "median_hours": 155.76,
+   "n": 5564,
+   "p_late": 0.4696
+  },
+  "Muni Employee Feedback": {
+   "median_hours": 77.19,
+   "n": 4546,
+   "p_late": 0.2728
+  },
+  "Muni Service Feedback": {
+   "median_hours": 39.25,
+   "n": 5039,
+   "p_late": 0.1532
+  },
+  "Noise": {
+   "median_hours": 40.46,
+   "n": 14152,
+   "p_late": 0.109
+  },
+  "OOC Feedback": {
+   "median_hours": 183.83,
+   "n": 54,
+   "p_late": 0.5556
+  },
+  "Parking Enforcement": {
+   "median_hours": 2.55,
+   "n": 122800,
+   "p_late": 0.0295
+  },
+  "RPD General": {
+   "median_hours": 75.08,
+   "n": 8725,
+   "p_late": 0.3203
+  },
+  "RPP Application Status": {
+   "median_hours": 53.15,
+   "n": 24,
+   "p_late": 0.0
+  },
+  "Residential Building": {
+   "median_hours": 23.29,
+   "n": 2394,
+   "p_late": 0.0777
+  },
+  "Sewer": {
+   "median_hours": 4.24,
+   "n": 6815,
+   "p_late": 0.0854
+  },
+  "Shared Spaces Request": {
+   "median_hours": 106.62,
+   "n": 389,
+   "p_late": 0.3188
+  },
+  "Sidewalk and Curb": {
+   "median_hours": 164.76,
+   "n": 5260,
+   "p_late": 0.4949
+  },
+  "Street Defect": {
+   "median_hours": 142.06,
+   "n": 4697,
+   "p_late": 0.4539
+  },
+  "Street and Sidewalk Cleaning": {
+   "median_hours": 8.3,
+   "n": 211504,
+   "p_late": 0.0504
+  },
+  "Streetlights": {
+   "median_hours": 64.52,
+   "n": 2912,
+   "p_late": 0.1676
+  },
+  "Taxi Complaint": {
+   "median_hours": 13.72,
+   "n": 432,
+   "p_late": 0.0
+  },
+  "Temporary Sign Applications": {
+   "median_hours": 385.27,
+   "n": 131,
+   "p_late": 0.9466
+  },
+  "Tree Maintenance": {
+   "median_hours": 213.58,
+   "n": 3608,
+   "p_late": 0.5413
+  },
+  "Volunteer Programs": {
+   "median_hours": 49.49,
+   "n": 27,
+   "p_late": 0.4074
+  },
+  "Waste of Water": {
+   "median_hours": 34.35,
+   "n": 82,
+   "p_late": 0.1098
+  },
+  "Water Quality": {
+   "median_hours": 3.14,
+   "n": 356,
+   "p_late": 0.0169
+  }
+ },
+ "by_subtype": {
+  "\"parking_lane\"": {
+   "median_hours": 115.9,
+   "n": 60,
+   "p_late": 0.3333
+  },
+  "\"private_lot\"": {
+   "median_hours": 38.41,
+   "n": 37,
+   "p_late": 0.1351
+  },
+  "\"roadway\"": {
+   "median_hours": 181.77,
+   "n": 39,
+   "p_late": 0.5897
+  },
+  "\"sidewalk\"": {
+   "median_hours": 102.66,
+   "n": 219,
+   "p_late": 0.2877
+  },
+  "abandoned_vehicle": {
+   "median_hours": 88.73,
+   "n": 13565,
+   "p_late": 0.1908
+  },
+  "abandoned_vehicle_callback": {
+   "median_hours": 799.6,
+   "n": 100,
+   "p_late": 0.79
+  },
+  "add_garbage_can": {
+   "median_hours": 27.06,
+   "n": 110,
+   "p_late": 0.2182
+  },
+  "affixed_improperly": {
+   "median_hours": 119.02,
+   "n": 733,
+   "p_late": 0.4297
+  },
+  "amplified_sound_electronics": {
+   "median_hours": 29.76,
+   "n": 1433,
+   "p_late": 0.0
+  },
+  "animal_care_and_control": {
+   "median_hours": 3.05,
+   "n": 576,
+   "p_late": 0.0
+  },
+  "bathroom": {
+   "median_hours": 23.4,
+   "n": 50,
+   "p_late": 0.0
+  },
+  "benches_on_sidewalk": {
+   "median_hours": 102.44,
+   "n": 116,
+   "p_late": 0.3534
+  },
+  "bike_rack": {
+   "median_hours": 309.95,
+   "n": 117,
+   "p_late": 0.6923
+  },
+  "black_particles": {
+   "median_hours": 2.69,
+   "n": 20,
+   "p_late": 0.05
+  },
+  "blocked_exit_common_areas": {
+   "median_hours": 708.73,
+   "n": 26,
+   "p_late": 0.8846
+  },
+  "blocked_parking_space_or_strip": {
+   "median_hours": 84.95,
+   "n": 415,
+   "p_late": 0.3759
+  },
+  "blocked_sidewalk": {
+   "median_hours": 1.08,
+   "n": 10111,
+   "p_late": 0.072
+  },
+  "blocking_driveway_cite_only": {
+   "median_hours": 2.1,
+   "n": 26037,
+   "p_late": 0.0002
+  },
+  "blocking_driveway_cite_tow": {
+   "median_hours": 1.48,
+   "n": 13971,
+   "p_late": 0.0005
+  },
+  "board_of_supervisors": {
+   "median_hours": 44.75,
+   "n": 336,
+   "p_late": 0.2024
+  },
+  "building_inspection": {
+   "median_hours": 25.61,
+   "n": 309,
+   "p_late": 0.0518
+  },
+  "catch_basin": {
+   "median_hours": 25.75,
+   "n": 446,
+   "p_late": 0.1188
+  },
+  "citations_payment_status": {
+   "median_hours": 28.58,
+   "n": 52,
+   "p_late": 0.0192
+  },
+  "citations_protest_status": {
+   "median_hours": 26.49,
+   "n": 54,
+   "p_late": 0.0
+  },
+  "citations_questions_comments": {
+   "median_hours": 30.85,
+   "n": 111,
+   "p_late": 0.045
+  },
+  "city_hall": {
+   "median_hours": 71.03,
+   "n": 25,
+   "p_late": 0.2
+  },
+  "cloudy_milky_appearance": {
+   "median_hours": 2.69,
+   "n": 29,
+   "p_late": 0.0
+  },
+  "clutter_hoarder_unit_interior_storage": {
+   "median_hours": 23.18,
+   "n": 43,
+   "p_late": 0.0
+  },
+  "comment_question_suggestion": {
+   "median_hours": 49.42,
+   "n": 42,
+   "p_late": 0.119
+  },
+  "comment_question_suggestion_employee": {
+   "median_hours": 70.38,
+   "n": 128,
+   "p_late": 0.2578
+  },
+  "comment_question_suggestion_service": {
+   "median_hours": 49.33,
+   "n": 173,
+   "p_late": 0.1792
+  },
+  "complaint": {
+   "median_hours": 183.83,
+   "n": 46,
+   "p_late": 0.5652
+  },
+  "complaint_construction": {
+   "median_hours": 76.09,
+   "n": 61,
+   "p_late": 0.3443
+  },
+  "complaint_discourteous_unprofessional": {
+   "median_hours": 119.0,
+   "n": 1077,
+   "p_late": 0.389
+  },
+  "complaint_fare_payment_methods": {
+   "median_hours": 81.17,
+   "n": 124,
+   "p_late": 0.3629
+  },
+  "complaint_frequency_reliability": {
+   "median_hours": 41.1,
+   "n": 1760,
+   "p_late": 0.0636
+  },
+  "complaint_information_systems": {
+   "median_hours": 0.13,
+   "n": 571,
+   "p_late": 0.0
+  },
+  "complaint_maintenance_repair": {
+   "median_hours": 59.87,
+   "n": 935,
+   "p_late": 0.2524
+  },
+  "complaint_pass_ups_denial_inattention": {
+   "median_hours": 72.5,
+   "n": 1966,
+   "p_late": 0.2574
+  },
+  "complaint_safety_security": {
+   "median_hours": 81.94,
+   "n": 516,
+   "p_late": 0.3159
+  },
+  "complaint_signs_maps": {
+   "median_hours": 52.11,
+   "n": 366,
+   "p_late": 0.2432
+  },
+  "complaint_special_events": {
+   "median_hours": 53.94,
+   "n": 30,
+   "p_late": 0.2
+  },
+  "complaint_unsafe_operation": {
+   "median_hours": 113.93,
+   "n": 695,
+   "p_late": 0.3482
+  },
+  "construction_plate_shifted": {
+   "median_hours": 97.03,
+   "n": 79,
+   "p_late": 0.2911
+  },
+  "construction_private_property": {
+   "median_hours": 19.91,
+   "n": 124,
+   "p_late": 0.0323
+  },
+  "construction_public": {
+   "median_hours": 184.3,
+   "n": 416,
+   "p_late": 0.5216
+  },
+  "curb_or_curb_ramp_defect": {
+   "median_hours": 136.21,
+   "n": 852,
+   "p_late": 0.4354
+  },
+  "damaged_side_sewer_vent_cover": {
+   "median_hours": 252.46,
+   "n": 260,
+   "p_late": 0.5808
+  },
+  "damaged_tree": {
+   "median_hours": 80.62,
+   "n": 1488,
+   "p_late": 0.3071
+  },
+  "damaging_property": {
+   "median_hours": 1490.97,
+   "n": 233,
+   "p_late": 0.8884
+  },
+  "debris_box_maintenance_overflowing": {
+   "median_hours": 6.44,
+   "n": 50,
+   "p_late": 0.08
+  },
+  "delivery_service_business": {
+   "median_hours": 23.32,
+   "n": 40,
+   "p_late": 0.0
+  },
+  "delivery_service_vehicle": {
+   "median_hours": 19.9,
+   "n": 140,
+   "p_late": 0.0
+  },
+  "dirty_water": {
+   "median_hours": 3.56,
+   "n": 55,
+   "p_late": 0.0
+  },
+  "discolored": {
+   "median_hours": 3.29,
+   "n": 171,
+   "p_late": 0.0175
+  },
+  "do_not_enter": {
+   "median_hours": 237.29,
+   "n": 65,
+   "p_late": 0.5538
+  },
+  "door_lock_issue": {
+   "median_hours": 24.76,
+   "n": 795,
+   "p_late": 0.0075
+  },
+  "doors_windows_broken_defective": {
+   "median_hours": 22.74,
+   "n": 92,
+   "p_late": 0.0
+  },
+  "electrical_hazardous_condition": {
+   "median_hours": 35.34,
+   "n": 57,
+   "p_late": 0.0
+  },
+  "electrical_non_hazard": {
+   "median_hours": 19.58,
+   "n": 76,
+   "p_late": 0.0
+  },
+  "elevators_everthing_else": {
+   "median_hours": 22.01,
+   "n": 129,
+   "p_late": 0.0078
+  },
+  "elevators_no_working_elevator_7_or_more_stories": {
+   "median_hours": 1035.94,
+   "n": 70,
+   "p_late": 0.8571
+  },
+  "emergency_equipment": {
+   "median_hours": 32.44,
+   "n": 40,
+   "p_late": 0.0
+  },
+  "encampment": {
+   "median_hours": 27.82,
+   "n": 16571,
+   "p_late": 0.0626
+  },
+  "entertainment": {
+   "median_hours": 137.74,
+   "n": 1013,
+   "p_late": 0.3258
+  },
+  "environment": {
+   "median_hours": 25.44,
+   "n": 23,
+   "p_late": 0.2609
+  },
+  "fire_alarm_system": {
+   "median_hours": 484.3,
+   "n": 36,
+   "p_late": 0.8889
+  },
+  "fire_hazard": {
+   "median_hours": 656.93,
+   "n": 50,
+   "p_late": 0.8
+  },
+  "fire_police_callbox": {
+   "median_hours": 249.43,
+   "n": 56,
+   "p_late": 0.7321
+  },
+  "flooding": {
+   "median_hours": 47.39,
+   "n": 1310,
+   "p_late": 0.1023
+  },
+  "freeway_signs_on_street": {
+   "median_hours": 5.71,
+   "n": 21,
+   "p_late": 0.2381
+  },
+  "garbage_and_debris": {
+   "median_hours": 8.3,
+   "n": 211506,
+   "p_late": 0.0504
+  },
+  "garbage_receptacles": {
+   "median_hours": 20.87,
+   "n": 37,
+   "p_late": 0.027
+  },
+  "garbage_recycling_collection": {
+   "median_hours": 357.29,
+   "n": 122,
+   "p_late": 0.5902
+  },
+  "general_maintenance_not_in_list_above": {
+   "median_hours": 23.28,
+   "n": 352,
+   "p_late": 0.0085
+  },
+  "heat_lack_of_heat": {
+   "median_hours": 22.16,
+   "n": 224,
+   "p_late": 0.0
+  },
+  "home_improvement_maintenance": {
+   "median_hours": 22.49,
+   "n": 60,
+   "p_late": 0.0
+  },
+  "homelessness_and_supportive_housing": {
+   "median_hours": 20.29,
+   "n": 13994,
+   "p_late": 0.0099
+  },
+  "hospital": {
+   "median_hours": 21.29,
+   "n": 38,
+   "p_late": 0.0
+  },
+  "hot_water_lack_of_hot_water": {
+   "median_hours": 22.27,
+   "n": 122,
+   "p_late": 0.0
+  },
+  "human_services_agency": {
+   "median_hours": 174.31,
+   "n": 34,
+   "p_late": 0.5294
+  },
+  "illegal_construction_no_permit_exceeds_permit_scope": {
+   "median_hours": 32.76,
+   "n": 59,
+   "p_late": 0.2034
+  },
+  "inadequately_maintained_building_exterior": {
+   "median_hours": 22.8,
+   "n": 133,
+   "p_late": 0.0376
+  },
+  "infestation_rodent_insect": {
+   "median_hours": 28.5,
+   "n": 33,
+   "p_late": 0.0
+  },
+  "kiosk_public_toilet": {
+   "median_hours": 85.84,
+   "n": 77,
+   "p_late": 0.4026
+  },
+  "landscaping": {
+   "median_hours": 494.39,
+   "n": 1316,
+   "p_late": 0.6603
+  },
+  "large_vehicle": {
+   "median_hours": 22.39,
+   "n": 1723,
+   "p_late": 0.137
+  },
+  "leaks": {
+   "median_hours": 46.3,
+   "n": 43,
+   "p_late": 0.1628
+  },
+  "light": {
+   "median_hours": 58.68,
+   "n": 2205,
+   "p_late": 0.1392
+  },
+  "liner_issue_damaged_missing": {
+   "median_hours": 23.02,
+   "n": 493,
+   "p_late": 0.0081
+  },
+  "major_event_venue": {
+   "median_hours": 88.77,
+   "n": 625,
+   "p_late": 0.1168
+  },
+  "manhole_cover_off": {
+   "median_hours": 89.15,
+   "n": 249,
+   "p_late": 0.3414
+  },
+  "mechanical_equipment": {
+   "median_hours": 93.66,
+   "n": 265,
+   "p_late": 0.2264
+  },
+  "missing_side_sewer_vent_cover": {
+   "median_hours": 433.55,
+   "n": 673,
+   "p_late": 0.682
+  },
+  "mobile_food_facility": {
+   "median_hours": 55.93,
+   "n": 37,
+   "p_late": 0.1351
+  },
+  "mold_and_mildew": {
+   "median_hours": 22.25,
+   "n": 295,
+   "p_late": 0.0068
+  },
+  "moving_residential_property": {
+   "median_hours": 383.25,
+   "n": 111,
+   "p_late": 0.9459
+  },
+  "multiple_postings": {
+   "median_hours": 124.49,
+   "n": 267,
+   "p_late": 0.4532
+  },
+  "municipal_transportation_agency": {
+   "median_hours": 23.37,
+   "n": 3821,
+   "p_late": 0.2918
+  },
+  "news_rack": {
+   "median_hours": 43.67,
+   "n": 38,
+   "p_late": 0.2895
+  },
+  "no_left_turn": {
+   "median_hours": 271.13,
+   "n": 112,
+   "p_late": 0.6339
+  },
+  "no_parking": {
+   "median_hours": 139.29,
+   "n": 441,
+   "p_late": 0.4467
+  },
+  "no_posting_date": {
+   "median_hours": 188.44,
+   "n": 176,
+   "p_late": 0.5227
+  },
+  "not_offensive": {
+   "median_hours": 169.25,
+   "n": 45128,
+   "p_late": 0.5021
+  },
+  "offensive": {
+   "median_hours": 152.75,
+   "n": 4020,
+   "p_late": 0.4821
+  },
+  "one_way": {
+   "median_hours": 149.23,
+   "n": 78,
+   "p_late": 0.4744
+  },
+  "other": {
+   "median_hours": 102.63,
+   "n": 4218,
+   "p_late": 0.3822
+  },
+  "other_excessive_noise": {
+   "median_hours": 36.51,
+   "n": 9255,
+   "p_late": 0.083
+  },
+  "other_garbage_can_repair": {
+   "median_hours": 28.61,
+   "n": 260,
+   "p_late": 0.0885
+  },
+  "other_illegal_parking": {
+   "median_hours": 2.52,
+   "n": 38844,
+   "p_late": 0.0179
+  },
+  "other_including_abandoned_toter": {
+   "median_hours": 23.75,
+   "n": 2507,
+   "p_late": 0.0036
+  },
+  "other_misc_feedback_requests": {
+   "median_hours": 33.1,
+   "n": 427,
+   "p_late": 0.1405
+  },
+  "other_parking_type": {
+   "median_hours": 88.31,
+   "n": 384,
+   "p_late": 0.3203
+  },
+  "other_reallocate": {
+   "median_hours": 28.9,
+   "n": 132,
+   "p_late": 0.0076
+  },
+  "overgrown_tree": {
+   "median_hours": 411.27,
+   "n": 569,
+   "p_late": 0.7364
+  },
+  "paint_lead_violating_safe_practices": {
+   "median_hours": 20.2,
+   "n": 20,
+   "p_late": 0.0
+  },
+  "paint_peeling": {
+   "median_hours": 17.13,
+   "n": 93,
+   "p_late": 0.0
+  },
+  "park_patrol": {
+   "median_hours": 18.31,
+   "n": 2217,
+   "p_late": 0.1696
+  },
+  "park_services_area": {
+   "median_hours": 51.27,
+   "n": 2772,
+   "p_late": 0.2348
+  },
+  "parking_meter": {
+   "median_hours": 50.93,
+   "n": 1437,
+   "p_late": 0.0035
+  },
+  "parking_on_sidewalk": {
+   "median_hours": 2.81,
+   "n": 28562,
+   "p_late": 0.0007
+  },
+  "pavement_defect": {
+   "median_hours": 149.41,
+   "n": 3301,
+   "p_late": 0.4714
+  },
+  "permit_parking": {
+   "median_hours": 142.65,
+   "n": 369,
+   "p_late": 0.4417
+  },
+  "planning": {
+   "median_hours": 405.93,
+   "n": 65,
+   "p_late": 0.7538
+  },
+  "plumbing_broken_leaking": {
+   "median_hours": 21.73,
+   "n": 198,
+   "p_late": 0.0
+  },
+  "pole": {
+   "median_hours": 94.09,
+   "n": 422,
+   "p_late": 0.3033
+  },
+  "posted_on_directional_sign": {
+   "median_hours": 138.86,
+   "n": 23,
+   "p_late": 0.4348
+  },
+  "posted_on_traffic_light": {
+   "median_hours": 268.54,
+   "n": 101,
+   "p_late": 0.6139
+  },
+  "posted_over_70_days": {
+   "median_hours": 152.25,
+   "n": 26,
+   "p_late": 0.4615
+  },
+  "posting_too_large_in_size": {
+   "median_hours": 184.16,
+   "n": 23,
+   "p_late": 0.5217
+  },
+  "praise_employee": {
+   "median_hours": 38.61,
+   "n": 679,
+   "p_late": 0.0589
+  },
+  "praise_service": {
+   "median_hours": 44.64,
+   "n": 24,
+   "p_late": 0.0417
+  },
+  "protest_speech_bullhorns": {
+   "median_hours": 41.0,
+   "n": 31,
+   "p_late": 0.0
+  },
+  "public_health": {
+   "median_hours": 40.64,
+   "n": 1085,
+   "p_late": 0.1714
+  },
+  "public_stairway_defect": {
+   "median_hours": 86.63,
+   "n": 85,
+   "p_late": 0.3294
+  },
+  "public_utilities_commission": {
+   "median_hours": 18.12,
+   "n": 1396,
+   "p_late": 0.0681
+  },
+  "public_works": {
+   "median_hours": 32.75,
+   "n": 7006,
+   "p_late": 0.2344
+  },
+  "pullbox": {
+   "median_hours": 73.62,
+   "n": 89,
+   "p_late": 0.1798
+  },
+  "recreation_and_park_department": {
+   "median_hours": 95.5,
+   "n": 99,
+   "p_late": 0.4242
+  },
+  "remove_garbage_can": {
+   "median_hours": 22.82,
+   "n": 195,
+   "p_late": 0.1077
+  },
+  "rent_board": {
+   "median_hours": 1.76,
+   "n": 730,
+   "p_late": 0.0616
+  },
+  "rpp_application_status": {
+   "median_hours": 53.15,
+   "n": 24,
+   "p_late": 0.0
+  },
+  "security_inadequately_secured_perimeter": {
+   "median_hours": 24.49,
+   "n": 25,
+   "p_late": 0.0
+  },
+  "sewage_back-up_discharge": {
+   "median_hours": 2.93,
+   "n": 3545,
+   "p_late": 0.0488
+  },
+  "sewer_odor": {
+   "median_hours": 9.46,
+   "n": 226,
+   "p_late": 0.0973
+  },
+  "sidewalk_defect": {
+   "median_hours": 163.12,
+   "n": 3496,
+   "p_late": 0.492
+  },
+  "sirens": {
+   "median_hours": 19.41,
+   "n": 100,
+   "p_late": 0.0
+  },
+  "speed_limit": {
+   "median_hours": 262.49,
+   "n": 55,
+   "p_late": 0.6182
+  },
+  "stop": {
+   "median_hours": 130.12,
+   "n": 709,
+   "p_late": 0.3935
+  },
+  "street_cleaning": {
+   "median_hours": 154.53,
+   "n": 816,
+   "p_late": 0.4632
+  },
+  "street_name": {
+   "median_hours": 841.07,
+   "n": 351,
+   "p_late": 0.6952
+  },
+  "structural_maintenance": {
+   "median_hours": 160.86,
+   "n": 3578,
+   "p_late": 0.4768
+  },
+  "taxi_complaint": {
+   "median_hours": 13.69,
+   "n": 433,
+   "p_late": 0.0
+  },
+  "tipped_over": {
+   "median_hours": 23.42,
+   "n": 166,
+   "p_late": 0.0482
+  },
+  "toters_left_out_24x7": {
+   "median_hours": 241.59,
+   "n": 1625,
+   "p_late": 0.5982
+  },
+  "tow_away": {
+   "median_hours": 175.87,
+   "n": 177,
+   "p_late": 0.5141
+  },
+  "traffic": {
+   "median_hours": 45.6,
+   "n": 149,
+   "p_late": 0.0738
+  },
+  "traffic_signal": {
+   "median_hours": 42.2,
+   "n": 1359,
+   "p_late": 0.1096
+  },
+  "transit_shelter_platform": {
+   "median_hours": 23.2,
+   "n": 1347,
+   "p_late": 0.0438
+  },
+  "transit_shelter_platform_hazardous": {
+   "median_hours": 22.88,
+   "n": 170,
+   "p_late": 0.0118
+  },
+  "urban_forestry": {
+   "median_hours": 117.78,
+   "n": 174,
+   "p_late": 0.408
+  },
+  "utility_excavation": {
+   "median_hours": 141.78,
+   "n": 95,
+   "p_late": 0.4421
+  },
+  "vehicle_car_alarm": {
+   "median_hours": 20.66,
+   "n": 82,
+   "p_late": 0.0
+  },
+  "ventilation_inadequate_or_none": {
+   "median_hours": 21.13,
+   "n": 60,
+   "p_late": 0.0
+  },
+  "warning": {
+   "median_hours": 158.25,
+   "n": 381,
+   "p_late": 0.4829
+  },
+  "water_leak": {
+   "median_hours": 0.6,
+   "n": 877,
+   "p_late": 0.1254
+  }
+ },
+ "by_subtype_source": {
+  "\"parking_lane\"|Web": {
+   "median_hours": 122.19,
+   "n": 52,
+   "p_late": 0.3269
+  },
+  "\"sidewalk\"|Web": {
+   "median_hours": 92.58,
+   "n": 191,
+   "p_late": 0.2723
+  },
+  "abandoned_vehicle_callback|Phone": {
+   "median_hours": 832.19,
+   "n": 95,
+   "p_late": 0.7789
+  },
+  "abandoned_vehicle|Mobile": {
+   "median_hours": 88.45,
+   "n": 4816,
+   "p_late": 0.2035
+  },
+  "abandoned_vehicle|Phone": {
+   "median_hours": 94.12,
+   "n": 4127,
+   "p_late": 0.1834
+  },
+  "abandoned_vehicle|Web": {
+   "median_hours": 76.48,
+   "n": 4422,
+   "p_late": 0.1839
+  },
+  "add_garbage_can|Mobile": {
+   "median_hours": 26.17,
+   "n": 79,
+   "p_late": 0.1646
+  },
+  "affixed_improperly|Mobile": {
+   "median_hours": 95.73,
+   "n": 414,
+   "p_late": 0.3889
+  },
+  "affixed_improperly|Web": {
+   "median_hours": 150.85,
+   "n": 299,
+   "p_late": 0.4783
+  },
+  "amplified_sound_electronics|Phone": {
+   "median_hours": 22.14,
+   "n": 80,
+   "p_late": 0.0
+  },
+  "amplified_sound_electronics|Web": {
+   "median_hours": 29.89,
+   "n": 1346,
+   "p_late": 0.0
+  },
+  "animal_care_and_control|Phone": {
+   "median_hours": 3.05,
+   "n": 522,
+   "p_late": 0.0
+  },
+  "benches_on_sidewalk|Mobile": {
+   "median_hours": 93.62,
+   "n": 97,
+   "p_late": 0.3196
+  },
+  "bike_rack|Web": {
+   "median_hours": 331.55,
+   "n": 61,
+   "p_late": 0.6885
+  },
+  "blocked_parking_space_or_strip|Mobile": {
+   "median_hours": 46.7,
+   "n": 88,
+   "p_late": 0.2727
+  },
+  "blocked_parking_space_or_strip|Phone": {
+   "median_hours": 88.56,
+   "n": 174,
+   "p_late": 0.3448
+  },
+  "blocked_parking_space_or_strip|Web": {
+   "median_hours": 157.95,
+   "n": 141,
+   "p_late": 0.4823
+  },
+  "blocked_sidewalk|Mobile": {
+   "median_hours": 0.8,
+   "n": 8006,
+   "p_late": 0.0428
+  },
+  "blocked_sidewalk|Phone": {
+   "median_hours": 64.94,
+   "n": 352,
+   "p_late": 0.2358
+  },
+  "blocked_sidewalk|Web": {
+   "median_hours": 11.28,
+   "n": 1720,
+   "p_late": 0.1686
+  },
+  "blocking_driveway_cite_only|Mobile": {
+   "median_hours": 2.14,
+   "n": 12595,
+   "p_late": 0.0002
+  },
+  "blocking_driveway_cite_only|Phone": {
+   "median_hours": 2.0,
+   "n": 7568,
+   "p_late": 0.0
+  },
+  "blocking_driveway_cite_only|Web": {
+   "median_hours": 2.13,
+   "n": 5715,
+   "p_late": 0.0005
+  },
+  "blocking_driveway_cite_tow|Mobile": {
+   "median_hours": 1.52,
+   "n": 4843,
+   "p_late": 0.0008
+  },
+  "blocking_driveway_cite_tow|Phone": {
+   "median_hours": 1.47,
+   "n": 6699,
+   "p_late": 0.0001
+  },
+  "blocking_driveway_cite_tow|Web": {
+   "median_hours": 1.43,
+   "n": 2158,
+   "p_late": 0.0009
+  },
+  "board_of_supervisors|Web": {
+   "median_hours": 45.67,
+   "n": 314,
+   "p_late": 0.2102
+  },
+  "building_inspection|Phone": {
+   "median_hours": 25.49,
+   "n": 285,
+   "p_late": 0.0491
+  },
+  "catch_basin|Mobile": {
+   "median_hours": 25.36,
+   "n": 243,
+   "p_late": 0.1029
+  },
+  "catch_basin|Phone": {
+   "median_hours": 29.21,
+   "n": 76,
+   "p_late": 0.1447
+  },
+  "catch_basin|Web": {
+   "median_hours": 24.71,
+   "n": 123,
+   "p_late": 0.1382
+  },
+  "citations_payment_status|Phone": {
+   "median_hours": 28.24,
+   "n": 50,
+   "p_late": 0.02
+  },
+  "citations_protest_status|Phone": {
+   "median_hours": 26.49,
+   "n": 54,
+   "p_late": 0.0
+  },
+  "citations_questions_comments|Phone": {
+   "median_hours": 30.85,
+   "n": 109,
+   "p_late": 0.0367
+  },
+  "comment_question_suggestion_employee|Phone": {
+   "median_hours": 70.38,
+   "n": 126,
+   "p_late": 0.254
+  },
+  "comment_question_suggestion_service|Phone": {
+   "median_hours": 49.39,
+   "n": 170,
+   "p_late": 0.1765
+  },
+  "complaint_discourteous_unprofessional|Mobile": {
+   "median_hours": 21.59,
+   "n": 149,
+   "p_late": 0.2886
+  },
+  "complaint_discourteous_unprofessional|Phone": {
+   "median_hours": 122.9,
+   "n": 926,
+   "p_late": 0.4039
+  },
+  "complaint_fare_payment_methods|Phone": {
+   "median_hours": 98.01,
+   "n": 95,
+   "p_late": 0.4211
+  },
+  "complaint_frequency_reliability|Mobile": {
+   "median_hours": 33.92,
+   "n": 419,
+   "p_late": 0.0644
+  },
+  "complaint_frequency_reliability|Phone": {
+   "median_hours": 44.91,
+   "n": 1340,
+   "p_late": 0.0634
+  },
+  "complaint_information_systems|Mobile": {
+   "median_hours": 0.14,
+   "n": 88,
+   "p_late": 0.0
+  },
+  "complaint_information_systems|Phone": {
+   "median_hours": 0.13,
+   "n": 483,
+   "p_late": 0.0
+  },
+  "complaint_maintenance_repair|Mobile": {
+   "median_hours": 70.1,
+   "n": 226,
+   "p_late": 0.2743
+  },
+  "complaint_maintenance_repair|Phone": {
+   "median_hours": 46.93,
+   "n": 666,
+   "p_late": 0.2012
+  },
+  "complaint_pass_ups_denial_inattention|Mobile": {
+   "median_hours": 93.52,
+   "n": 106,
+   "p_late": 0.3302
+  },
+  "complaint_pass_ups_denial_inattention|Phone": {
+   "median_hours": 71.97,
+   "n": 1858,
+   "p_late": 0.2535
+  },
+  "complaint_safety_security|Mobile": {
+   "median_hours": 67.37,
+   "n": 145,
+   "p_late": 0.2621
+  },
+  "complaint_safety_security|Phone": {
+   "median_hours": 91.37,
+   "n": 367,
+   "p_late": 0.3324
+  },
+  "complaint_signs_maps|Mobile": {
+   "median_hours": 30.33,
+   "n": 140,
+   "p_late": 0.1714
+  },
+  "complaint_signs_maps|Phone": {
+   "median_hours": 70.88,
+   "n": 222,
+   "p_late": 0.2748
+  },
+  "complaint_unsafe_operation|Mobile": {
+   "median_hours": 141.56,
+   "n": 79,
+   "p_late": 0.4177
+  },
+  "complaint_unsafe_operation|Phone": {
+   "median_hours": 104.4,
+   "n": 615,
+   "p_late": 0.3398
+  },
+  "construction_private_property|Mobile": {
+   "median_hours": 24.67,
+   "n": 65,
+   "p_late": 0.0308
+  },
+  "construction_public|Mobile": {
+   "median_hours": 120.73,
+   "n": 192,
+   "p_late": 0.4427
+  },
+  "construction_public|Phone": {
+   "median_hours": 217.87,
+   "n": 115,
+   "p_late": 0.6087
+  },
+  "construction_public|Web": {
+   "median_hours": 179.16,
+   "n": 96,
+   "p_late": 0.5104
+  },
+  "curb_or_curb_ramp_defect|Mobile": {
+   "median_hours": 122.3,
+   "n": 502,
+   "p_late": 0.4303
+  },
+  "curb_or_curb_ramp_defect|Phone": {
+   "median_hours": 143.57,
+   "n": 89,
+   "p_late": 0.427
+  },
+  "curb_or_curb_ramp_defect|Web": {
+   "median_hours": 152.13,
+   "n": 256,
+   "p_late": 0.4453
+  },
+  "damaged_side_sewer_vent_cover|Mobile": {
+   "median_hours": 262.03,
+   "n": 211,
+   "p_late": 0.5877
+  },
+  "damaged_tree|Mobile": {
+   "median_hours": 94.53,
+   "n": 732,
+   "p_late": 0.3593
+  },
+  "damaged_tree|Phone": {
+   "median_hours": 51.67,
+   "n": 518,
+   "p_late": 0.2317
+  },
+  "damaged_tree|Web": {
+   "median_hours": 79.78,
+   "n": 206,
+   "p_late": 0.2961
+  },
+  "damaging_property|Mobile": {
+   "median_hours": 1431.17,
+   "n": 106,
+   "p_late": 0.8962
+  },
+  "damaging_property|Phone": {
+   "median_hours": 916.63,
+   "n": 63,
+   "p_late": 0.8889
+  },
+  "delivery_service_vehicle|Mobile": {
+   "median_hours": 13.48,
+   "n": 55,
+   "p_late": 0.0
+  },
+  "delivery_service_vehicle|Web": {
+   "median_hours": 21.63,
+   "n": 77,
+   "p_late": 0.0
+  },
+  "dirty_water|Phone": {
+   "median_hours": 3.56,
+   "n": 55,
+   "p_late": 0.0
+  },
+  "discolored|Phone": {
+   "median_hours": 3.31,
+   "n": 168,
+   "p_late": 0.0119
+  },
+  "door_lock_issue|Integrated Agency": {
+   "median_hours": 26.27,
+   "n": 122,
+   "p_late": 0.0
+  },
+  "door_lock_issue|Mobile": {
+   "median_hours": 24.34,
+   "n": 291,
+   "p_late": 0.0069
+  },
+  "door_lock_issue|Phone": {
+   "median_hours": 24.63,
+   "n": 101,
+   "p_late": 0.0099
+  },
+  "door_lock_issue|Web": {
+   "median_hours": 24.75,
+   "n": 278,
+   "p_late": 0.0108
+  },
+  "doors_windows_broken_defective|Phone": {
+   "median_hours": 22.97,
+   "n": 71,
+   "p_late": 0.0
+  },
+  "elevators_everthing_else|Phone": {
+   "median_hours": 22.01,
+   "n": 75,
+   "p_late": 0.0133
+  },
+  "encampment|Integrated Agency": {
+   "median_hours": 1.27,
+   "n": 76,
+   "p_late": 0.0
+  },
+  "encampment|Mobile": {
+   "median_hours": 28.31,
+   "n": 8305,
+   "p_late": 0.0663
+  },
+  "encampment|Phone": {
+   "median_hours": 31.69,
+   "n": 2843,
+   "p_late": 0.0651
+  },
+  "encampment|Web": {
+   "median_hours": 26.37,
+   "n": 5082,
+   "p_late": 0.0561
+  },
+  "entertainment|Mobile": {
+   "median_hours": 134.92,
+   "n": 585,
+   "p_late": 0.2889
+  },
+  "entertainment|Phone": {
+   "median_hours": 139.99,
+   "n": 196,
+   "p_late": 0.3724
+  },
+  "entertainment|Web": {
+   "median_hours": 148.51,
+   "n": 194,
+   "p_late": 0.3866
+  },
+  "flooding|Mobile": {
+   "median_hours": 49.16,
+   "n": 657,
+   "p_late": 0.1233
+  },
+  "flooding|Phone": {
+   "median_hours": 48.44,
+   "n": 433,
+   "p_late": 0.0831
+  },
+  "flooding|Web": {
+   "median_hours": 25.71,
+   "n": 216,
+   "p_late": 0.0787
+  },
+  "garbage_and_debris|Integrated Agency": {
+   "median_hours": 1.31,
+   "n": 2695,
+   "p_late": 0.0078
+  },
+  "garbage_and_debris|Mobile": {
+   "median_hours": 6.7,
+   "n": 115881,
+   "p_late": 0.0486
+  },
+  "garbage_and_debris|Phone": {
+   "median_hours": 5.55,
+   "n": 25021,
+   "p_late": 0.0458
+  },
+  "garbage_and_debris|Twitter": {
+   "median_hours": 14.9,
+   "n": 98,
+   "p_late": 0.051
+  },
+  "garbage_and_debris|Web": {
+   "median_hours": 12.36,
+   "n": 66377,
+   "p_late": 0.0565
+  },
+  "garbage_recycling_collection|Web": {
+   "median_hours": 259.43,
+   "n": 56,
+   "p_late": 0.5179
+  },
+  "general_maintenance_not_in_list_above|Phone": {
+   "median_hours": 23.34,
+   "n": 245,
+   "p_late": 0.0082
+  },
+  "general_maintenance_not_in_list_above|Web": {
+   "median_hours": 22.43,
+   "n": 77,
+   "p_late": 0.013
+  },
+  "heat_lack_of_heat|Phone": {
+   "median_hours": 22.7,
+   "n": 148,
+   "p_late": 0.0
+  },
+  "homelessness_and_supportive_housing|Mobile": {
+   "median_hours": 21.87,
+   "n": 7008,
+   "p_late": 0.0131
+  },
+  "homelessness_and_supportive_housing|Phone": {
+   "median_hours": 22.7,
+   "n": 429,
+   "p_late": 0.014
+  },
+  "homelessness_and_supportive_housing|Web": {
+   "median_hours": 18.61,
+   "n": 6521,
+   "p_late": 0.0063
+  },
+  "hot_water_lack_of_hot_water|Phone": {
+   "median_hours": 22.78,
+   "n": 83,
+   "p_late": 0.0
+  },
+  "illegal_construction_no_permit_exceeds_permit_scope|Web": {
+   "median_hours": 32.78,
+   "n": 55,
+   "p_late": 0.2182
+  },
+  "inadequately_maintained_building_exterior|Phone": {
+   "median_hours": 22.74,
+   "n": 114,
+   "p_late": 0.0439
+  },
+  "kiosk_public_toilet|Mobile": {
+   "median_hours": 118.29,
+   "n": 61,
+   "p_late": 0.4754
+  },
+  "landscaping|Mobile": {
+   "median_hours": 151.38,
+   "n": 465,
+   "p_late": 0.4602
+  },
+  "landscaping|Phone": {
+   "median_hours": 383.28,
+   "n": 81,
+   "p_late": 0.716
+  },
+  "landscaping|Web": {
+   "median_hours": 916.71,
+   "n": 738,
+   "p_late": 0.7696
+  },
+  "large_vehicle|Mobile": {
+   "median_hours": 23.1,
+   "n": 657,
+   "p_late": 0.1263
+  },
+  "large_vehicle|Phone": {
+   "median_hours": 23.95,
+   "n": 208,
+   "p_late": 0.1154
+  },
+  "large_vehicle|Web": {
+   "median_hours": 21.11,
+   "n": 830,
+   "p_late": 0.1506
+  },
+  "light|Mobile": {
+   "median_hours": 66.34,
+   "n": 1206,
+   "p_late": 0.1567
+  },
+  "light|Phone": {
+   "median_hours": 63.77,
+   "n": 451,
+   "p_late": 0.1242
+  },
+  "light|Web": {
+   "median_hours": 43.58,
+   "n": 525,
+   "p_late": 0.1124
+  },
+  "liner_issue_damaged_missing|Integrated Agency": {
+   "median_hours": 24.41,
+   "n": 131,
+   "p_late": 0.0
+  },
+  "liner_issue_damaged_missing|Mobile": {
+   "median_hours": 22.78,
+   "n": 259,
+   "p_late": 0.0154
+  },
+  "liner_issue_damaged_missing|Phone": {
+   "median_hours": 23.47,
+   "n": 66,
+   "p_late": 0.0
+  },
+  "major_event_venue|Mobile": {
+   "median_hours": 80.45,
+   "n": 479,
+   "p_late": 0.0877
+  },
+  "major_event_venue|Phone": {
+   "median_hours": 105.6,
+   "n": 51,
+   "p_late": 0.1765
+  },
+  "major_event_venue|Web": {
+   "median_hours": 105.78,
+   "n": 94,
+   "p_late": 0.234
+  },
+  "manhole_cover_off|Mobile": {
+   "median_hours": 109.66,
+   "n": 99,
+   "p_late": 0.4646
+  },
+  "manhole_cover_off|Phone": {
+   "median_hours": 58.0,
+   "n": 115,
+   "p_late": 0.2174
+  },
+  "mechanical_equipment|Mobile": {
+   "median_hours": 124.55,
+   "n": 57,
+   "p_late": 0.3333
+  },
+  "mechanical_equipment|Phone": {
+   "median_hours": 88.5,
+   "n": 74,
+   "p_late": 0.2973
+  },
+  "mechanical_equipment|Web": {
+   "median_hours": 87.81,
+   "n": 120,
+   "p_late": 0.1333
+  },
+  "missing_side_sewer_vent_cover|Mobile": {
+   "median_hours": 383.1,
+   "n": 314,
+   "p_late": 0.672
+  },
+  "missing_side_sewer_vent_cover|Phone": {
+   "median_hours": 371.24,
+   "n": 72,
+   "p_late": 0.6389
+  },
+  "missing_side_sewer_vent_cover|Web": {
+   "median_hours": 496.69,
+   "n": 278,
+   "p_late": 0.6942
+  },
+  "mold_and_mildew|Phone": {
+   "median_hours": 22.6,
+   "n": 219,
+   "p_late": 0.0091
+  },
+  "mold_and_mildew|Web": {
+   "median_hours": 20.65,
+   "n": 56,
+   "p_late": 0.0
+  },
+  "moving_residential_property|Phone": {
+   "median_hours": 383.25,
+   "n": 99,
+   "p_late": 0.9394
+  },
+  "multiple_postings|Mobile": {
+   "median_hours": 122.35,
+   "n": 200,
+   "p_late": 0.445
+  },
+  "municipal_transportation_agency|Mobile": {
+   "median_hours": 17.69,
+   "n": 1219,
+   "p_late": 0.3101
+  },
+  "municipal_transportation_agency|Phone": {
+   "median_hours": 16.51,
+   "n": 1863,
+   "p_late": 0.2211
+  },
+  "municipal_transportation_agency|Web": {
+   "median_hours": 141.05,
+   "n": 648,
+   "p_late": 0.4614
+  },
+  "no_left_turn|Web": {
+   "median_hours": 303.03,
+   "n": 79,
+   "p_late": 0.6709
+  },
+  "no_parking|Mobile": {
+   "median_hours": 157.3,
+   "n": 173,
+   "p_late": 0.4393
+  },
+  "no_parking|Web": {
+   "median_hours": 122.47,
+   "n": 232,
+   "p_late": 0.4397
+  },
+  "no_posting_date|Mobile": {
+   "median_hours": 108.36,
+   "n": 72,
+   "p_late": 0.4167
+  },
+  "no_posting_date|Web": {
+   "median_hours": 233.22,
+   "n": 102,
+   "p_late": 0.598
+  },
+  "not_offensive|Mobile": {
+   "median_hours": 140.13,
+   "n": 8218,
+   "p_late": 0.4693
+  },
+  "not_offensive|Phone": {
+   "median_hours": 212.42,
+   "n": 668,
+   "p_late": 0.5329
+  },
+  "not_offensive|Web": {
+   "median_hours": 175.6,
+   "n": 36144,
+   "p_late": 0.5084
+  },
+  "offensive|Mobile": {
+   "median_hours": 169.25,
+   "n": 2805,
+   "p_late": 0.5034
+  },
+  "offensive|Phone": {
+   "median_hours": 94.46,
+   "n": 121,
+   "p_late": 0.405
+  },
+  "offensive|Web": {
+   "median_hours": 112.29,
+   "n": 1076,
+   "p_late": 0.4312
+  },
+  "one_way|Web": {
+   "median_hours": 135.99,
+   "n": 50,
+   "p_late": 0.44
+  },
+  "other_excessive_noise|Mobile": {
+   "median_hours": 40.38,
+   "n": 8107,
+   "p_late": 0.0947
+  },
+  "other_excessive_noise|Phone": {
+   "median_hours": 22.02,
+   "n": 222,
+   "p_late": 0.0
+  },
+  "other_excessive_noise|Web": {
+   "median_hours": 20.86,
+   "n": 900,
+   "p_late": 0.0
+  },
+  "other_garbage_can_repair|Mobile": {
+   "median_hours": 32.74,
+   "n": 209,
+   "p_late": 0.0909
+  },
+  "other_illegal_parking|Mobile": {
+   "median_hours": 2.67,
+   "n": 20591,
+   "p_late": 0.0179
+  },
+  "other_illegal_parking|Phone": {
+   "median_hours": 2.12,
+   "n": 5710,
+   "p_late": 0.0277
+  },
+  "other_illegal_parking|Web": {
+   "median_hours": 2.48,
+   "n": 12004,
+   "p_late": 0.0132
+  },
+  "other_including_abandoned_toter|Mobile": {
+   "median_hours": 23.75,
+   "n": 1002,
+   "p_late": 0.003
+  },
+  "other_including_abandoned_toter|Phone": {
+   "median_hours": 23.07,
+   "n": 298,
+   "p_late": 0.0034
+  },
+  "other_including_abandoned_toter|Web": {
+   "median_hours": 24.08,
+   "n": 1150,
+   "p_late": 0.0043
+  },
+  "other_misc_feedback_requests|Mobile": {
+   "median_hours": 32.83,
+   "n": 137,
+   "p_late": 0.1314
+  },
+  "other_misc_feedback_requests|Phone": {
+   "median_hours": 33.1,
+   "n": 287,
+   "p_late": 0.1394
+  },
+  "other_parking_type|Mobile": {
+   "median_hours": 69.4,
+   "n": 165,
+   "p_late": 0.2727
+  },
+  "other_parking_type|Web": {
+   "median_hours": 95.88,
+   "n": 208,
+   "p_late": 0.3462
+  },
+  "other_reallocate|Web": {
+   "median_hours": 27.37,
+   "n": 113,
+   "p_late": 0.0088
+  },
+  "other|Mobile": {
+   "median_hours": 86.96,
+   "n": 2068,
+   "p_late": 0.3385
+  },
+  "other|Phone": {
+   "median_hours": 69.61,
+   "n": 202,
+   "p_late": 0.302
+  },
+  "other|Web": {
+   "median_hours": 132.98,
+   "n": 1898,
+   "p_late": 0.4362
+  },
+  "overgrown_tree|Mobile": {
+   "median_hours": 381.11,
+   "n": 357,
+   "p_late": 0.7339
+  },
+  "overgrown_tree|Phone": {
+   "median_hours": 693.94,
+   "n": 65,
+   "p_late": 0.7692
+  },
+  "overgrown_tree|Web": {
+   "median_hours": 478.69,
+   "n": 125,
+   "p_late": 0.728
+  },
+  "paint_peeling|Phone": {
+   "median_hours": 15.9,
+   "n": 86,
+   "p_late": 0.0
+  },
+  "park_patrol|Mobile": {
+   "median_hours": 29.27,
+   "n": 1145,
+   "p_late": 0.2218
+  },
+  "park_patrol|Phone": {
+   "median_hours": 11.98,
+   "n": 449,
+   "p_late": 0.118
+  },
+  "park_patrol|Web": {
+   "median_hours": 6.24,
+   "n": 607,
+   "p_late": 0.1087
+  },
+  "park_services_area|Mobile": {
+   "median_hours": 63.37,
+   "n": 1054,
+   "p_late": 0.2495
+  },
+  "park_services_area|Phone": {
+   "median_hours": 66.2,
+   "n": 386,
+   "p_late": 0.272
+  },
+  "park_services_area|Web": {
+   "median_hours": 46.48,
+   "n": 1318,
+   "p_late": 0.2109
+  },
+  "parking_meter|Mobile": {
+   "median_hours": 48.71,
+   "n": 168,
+   "p_late": 0.0119
+  },
+  "parking_meter|Phone": {
+   "median_hours": 59.34,
+   "n": 1160,
+   "p_late": 0.0026
+  },
+  "parking_meter|Web": {
+   "median_hours": 49.61,
+   "n": 58,
+   "p_late": 0.0
+  },
+  "parking_on_sidewalk|Mobile": {
+   "median_hours": 2.83,
+   "n": 16706,
+   "p_late": 0.0007
+  },
+  "parking_on_sidewalk|Phone": {
+   "median_hours": 2.63,
+   "n": 2513,
+   "p_late": 0.0004
+  },
+  "parking_on_sidewalk|Web": {
+   "median_hours": 2.83,
+   "n": 9204,
+   "p_late": 0.0008
+  },
+  "pavement_defect|Integrated Agency": {
+   "median_hours": 2.66,
+   "n": 62,
+   "p_late": 0.129
+  },
+  "pavement_defect|Mobile": {
+   "median_hours": 158.04,
+   "n": 1556,
+   "p_late": 0.4807
+  },
+  "pavement_defect|Phone": {
+   "median_hours": 139.52,
+   "n": 618,
+   "p_late": 0.4369
+  },
+  "pavement_defect|Web": {
+   "median_hours": 153.1,
+   "n": 1004,
+   "p_late": 0.4771
+  },
+  "permit_parking|Mobile": {
+   "median_hours": 164.62,
+   "n": 137,
+   "p_late": 0.4891
+  },
+  "permit_parking|Web": {
+   "median_hours": 134.95,
+   "n": 228,
+   "p_late": 0.4211
+  },
+  "planning|Phone": {
+   "median_hours": 418.25,
+   "n": 62,
+   "p_late": 0.7581
+  },
+  "plumbing_broken_leaking|Phone": {
+   "median_hours": 21.68,
+   "n": 153,
+   "p_late": 0.0
+  },
+  "pole|Mobile": {
+   "median_hours": 81.89,
+   "n": 196,
+   "p_late": 0.2602
+  },
+  "pole|Web": {
+   "median_hours": 93.73,
+   "n": 183,
+   "p_late": 0.3115
+  },
+  "posted_on_traffic_light|Web": {
+   "median_hours": 312.83,
+   "n": 69,
+   "p_late": 0.6957
+  },
+  "praise_employee|Mobile": {
+   "median_hours": 44.45,
+   "n": 54,
+   "p_late": 0.0741
+  },
+  "praise_employee|Phone": {
+   "median_hours": 35.14,
+   "n": 565,
+   "p_late": 0.0531
+  },
+  "public_health|Phone": {
+   "median_hours": 42.35,
+   "n": 970,
+   "p_late": 0.1701
+  },
+  "public_stairway_defect|Mobile": {
+   "median_hours": 85.27,
+   "n": 58,
+   "p_late": 0.2931
+  },
+  "public_utilities_commission|Integrated Agency": {
+   "median_hours": 5.94,
+   "n": 202,
+   "p_late": 0.0495
+  },
+  "public_utilities_commission|Phone": {
+   "median_hours": 21.95,
+   "n": 1044,
+   "p_late": 0.0651
+  },
+  "public_utilities_commission|Web": {
+   "median_hours": 0.12,
+   "n": 93,
+   "p_late": 0.0
+  },
+  "public_works|Integrated Agency": {
+   "median_hours": 92.64,
+   "n": 75,
+   "p_late": 0.2667
+  },
+  "public_works|Mobile": {
+   "median_hours": 14.37,
+   "n": 3300,
+   "p_late": 0.1555
+  },
+  "public_works|Phone": {
+   "median_hours": 78.69,
+   "n": 2551,
+   "p_late": 0.3109
+  },
+  "public_works|Web": {
+   "median_hours": 27.17,
+   "n": 865,
+   "p_late": 0.2312
+  },
+  "recreation_and_park_department|Phone": {
+   "median_hours": 94.21,
+   "n": 92,
+   "p_late": 0.413
+  },
+  "remove_garbage_can|Mobile": {
+   "median_hours": 22.68,
+   "n": 170,
+   "p_late": 0.0824
+  },
+  "rent_board|Phone": {
+   "median_hours": 1.75,
+   "n": 700,
+   "p_late": 0.0629
+  },
+  "sewage_back-up_discharge|Mobile": {
+   "median_hours": 2.82,
+   "n": 621,
+   "p_late": 0.0499
+  },
+  "sewage_back-up_discharge|Phone": {
+   "median_hours": 2.97,
+   "n": 2449,
+   "p_late": 0.0461
+  },
+  "sewage_back-up_discharge|Web": {
+   "median_hours": 2.93,
+   "n": 393,
+   "p_late": 0.0611
+  },
+  "sewer_odor|Mobile": {
+   "median_hours": 7.82,
+   "n": 178,
+   "p_late": 0.1067
+  },
+  "sidewalk_defect|Mobile": {
+   "median_hours": 202.55,
+   "n": 1913,
+   "p_late": 0.5463
+  },
+  "sidewalk_defect|Phone": {
+   "median_hours": 133.46,
+   "n": 543,
+   "p_late": 0.4273
+  },
+  "sidewalk_defect|Web": {
+   "median_hours": 131.07,
+   "n": 995,
+   "p_late": 0.4171
+  },
+  "sirens|Web": {
+   "median_hours": 19.72,
+   "n": 97,
+   "p_late": 0.0
+  },
+  "stop|Mobile": {
+   "median_hours": 97.0,
+   "n": 206,
+   "p_late": 0.3204
+  },
+  "stop|Web": {
+   "median_hours": 137.1,
+   "n": 471,
+   "p_late": 0.4289
+  },
+  "street_cleaning|Mobile": {
+   "median_hours": 201.16,
+   "n": 293,
+   "p_late": 0.5631
+  },
+  "street_cleaning|Phone": {
+   "median_hours": 126.3,
+   "n": 58,
+   "p_late": 0.4655
+  },
+  "street_cleaning|Web": {
+   "median_hours": 125.85,
+   "n": 459,
+   "p_late": 0.3965
+  },
+  "street_name|Mobile": {
+   "median_hours": 1834.73,
+   "n": 168,
+   "p_late": 0.8095
+  },
+  "street_name|Web": {
+   "median_hours": 331.97,
+   "n": 151,
+   "p_late": 0.5563
+  },
+  "structural_maintenance|Mobile": {
+   "median_hours": 185.54,
+   "n": 1004,
+   "p_late": 0.5249
+  },
+  "structural_maintenance|Phone": {
+   "median_hours": 138.72,
+   "n": 462,
+   "p_late": 0.4372
+  },
+  "structural_maintenance|Web": {
+   "median_hours": 149.12,
+   "n": 2093,
+   "p_late": 0.462
+  },
+  "taxi_complaint|Phone": {
+   "median_hours": 13.93,
+   "n": 247,
+   "p_late": 0.0
+  },
+  "taxi_complaint|Web": {
+   "median_hours": 13.45,
+   "n": 186,
+   "p_late": 0.0
+  },
+  "tipped_over|Mobile": {
+   "median_hours": 23.06,
+   "n": 137,
+   "p_late": 0.0511
+  },
+  "toters_left_out_24x7|Mobile": {
+   "median_hours": 199.22,
+   "n": 853,
+   "p_late": 0.544
+  },
+  "toters_left_out_24x7|Phone": {
+   "median_hours": 245.76,
+   "n": 471,
+   "p_late": 0.6306
+  },
+  "toters_left_out_24x7|Web": {
+   "median_hours": 356.5,
+   "n": 276,
+   "p_late": 0.6775
+  },
+  "tow_away|Web": {
+   "median_hours": 178.15,
+   "n": 132,
+   "p_late": 0.5152
+  },
+  "traffic_signal|Mobile": {
+   "median_hours": 85.3,
+   "n": 329,
+   "p_late": 0.2888
+  },
+  "traffic_signal|Phone": {
+   "median_hours": 39.33,
+   "n": 897,
+   "p_late": 0.0357
+  },
+  "traffic_signal|Web": {
+   "median_hours": 49.22,
+   "n": 121,
+   "p_late": 0.1736
+  },
+  "traffic|Mobile": {
+   "median_hours": 44.01,
+   "n": 119,
+   "p_late": 0.0168
+  },
+  "transit_shelter_platform_hazardous|Phone": {
+   "median_hours": 22.55,
+   "n": 147,
+   "p_late": 0.0068
+  },
+  "transit_shelter_platform|Mobile": {
+   "median_hours": 24.23,
+   "n": 787,
+   "p_late": 0.0661
+  },
+  "transit_shelter_platform|Phone": {
+   "median_hours": 19.87,
+   "n": 123,
+   "p_late": 0.0081
+  },
+  "transit_shelter_platform|Web": {
+   "median_hours": 20.99,
+   "n": 432,
+   "p_late": 0.0139
+  },
+  "urban_forestry|Mobile": {
+   "median_hours": 117.34,
+   "n": 65,
+   "p_late": 0.4308
+  },
+  "urban_forestry|Phone": {
+   "median_hours": 97.28,
+   "n": 78,
+   "p_late": 0.3205
+  },
+  "utility_excavation|Mobile": {
+   "median_hours": 119.86,
+   "n": 67,
+   "p_late": 0.403
+  },
+  "vehicle_car_alarm|Web": {
+   "median_hours": 20.33,
+   "n": 66,
+   "p_late": 0.0
+  },
+  "warning|Mobile": {
+   "median_hours": 117.18,
+   "n": 58,
+   "p_late": 0.3966
+  },
+  "warning|Web": {
+   "median_hours": 168.66,
+   "n": 317,
+   "p_late": 0.5047
+  },
+  "water_leak|Mobile": {
+   "median_hours": 2.43,
+   "n": 389,
+   "p_late": 0.1851
+  },
+  "water_leak|Phone": {
+   "median_hours": 0.4,
+   "n": 339,
+   "p_late": 0.0531
+  },
+  "water_leak|Web": {
+   "median_hours": 0.55,
+   "n": 132,
+   "p_late": 0.1136
+  }
+ },
+ "label_prior": {
+  "Blocked Street and Sidewalk": 8165,
+  "Encampment": 9375,
+  "General Request": 13145,
+  "Graffiti Private": 3562,
+  "Graffiti Public": 12244,
+  "Litter Receptacle Maintenance": 3254,
+  "Other": 9520,
+  "Parking Enforcement": 52092,
+  "RPD General": 3429,
+  "Sewer": 2384,
+  "Sidewalk and Curb": 7146,
+  "Street and Sidewalk Cleaning": 106921,
+  "Tree Maintenance": 4512
+ },
+ "late_hours": 168,
+ "overall": {
+  "median_hours": 12.81,
+  "n": 521436,
+  "p_late": 0.1229
+ },
+ "subtypes_by_label": {
+  "Blocked Street and Sidewalk": [
+   "blocked_sidewalk",
+   "blocked_parking_space_or_strip",
+   "parking_on_sidewalk"
+  ],
+  "Encampment": [
+   "encampment"
+  ],
+  "General Request": [
+   "homelessness_and_supportive_housing",
+   "public_works",
+   "municipal_transportation_agency",
+   "art_commission"
+  ],
+  "Graffiti Private": [
+   "not_offensive",
+   "offensive"
+  ],
+  "Graffiti Public": [
+   "not_offensive",
+   "offensive"
+  ],
+  "Litter Receptacle Maintenance": [
+   "other_including_abandoned_toter",
+   "toters_left_out_24x7",
+   "transit_shelter_platform",
+   "other_garbage_can_repair",
+   "door_lock_issue",
+   "remove_garbage_can",
+   "tipped_over",
+   "liner_issue_damaged_missing"
+  ],
+  "Other": [
+   "other_excessive_noise",
+   "other",
+   "light",
+   "transit_shelter_platform",
+   "affixed_improperly",
+   "traffic_signal",
+   "street_cleaning",
+   "pole"
+  ],
+  "Parking Enforcement": [
+   "other_illegal_parking",
+   "parking_on_sidewalk",
+   "blocking_driveway_cite_only",
+   "abandoned_vehicle",
+   "blocking_driveway_cite_tow",
+   "large_vehicle",
+   "blocking_bicycle_lane",
+   "double_parking"
+  ],
+  "RPD General": [
+   "park_patrol",
+   "park_services_area",
+   "structural_maintenance",
+   "urban_forestry"
+  ],
+  "Sewer": [
+   "water_leak",
+   "flooding",
+   "sewage_back-up_discharge",
+   "other",
+   "catch_basin",
+   "sewer_odor"
+  ],
+  "Sidewalk and Curb": [
+   "sidewalk_defect",
+   "pavement_defect",
+   "curb_or_curb_ramp_defect",
+   "other",
+   "missing_side_sewer_vent_cover",
+   "damaged_side_sewer_vent_cover",
+   "manhole_cover_off",
+   "public_stairway_defect"
+  ],
+  "Street and Sidewalk Cleaning": [
+   "garbage_and_debris"
+  ],
+  "Tree Maintenance": [
+   "overgrown_tree",
+   "damaged_tree",
+   "landscaping",
+   "damaging_property"
+  ]
+ }
+}

@@ -1,0 +1,8 @@
+embeddings: data/embeddings (shared); train 19500 val 3833 test 6500 (0s)
+  C=0.1   val macroF1 0.584
+  C=0.3   val macroF1 0.603
+  C=1     val macroF1 0.622
+  C=3     val macroF1 0.626
+  C=10    val macroF1 0.625
+  C=30    val macroF1 0.618
+TEST acc 0.636 macroF1 0.631 (C=3, fit 12s, 41.5 ms/img)

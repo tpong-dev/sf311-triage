@@ -1,0 +1,31 @@
+images: train 19500, val 3833, test 6500
+split                          test  train  val
+label                                          
+Street and Sidewalk Cleaning    500   1500  300
+Parking Enforcement             500   1500  300
+General Request                 500   1500  300
+Graffiti Public                 500   1500  300
+Blocked Street and Sidewalk     500   1500  300
+Encampment                      500   1500  300
+Sidewalk and Curb               500   1500  300
+Tree Maintenance                500   1500  300
+RPD General                     500   1500  300
+Graffiti Private                500   1500  300
+Litter Receptacle Maintenance   500   1500  300
+Sewer                           500   1500  233
+Other                           500   1500  300
+mobilenet_v3_small: training 1,248,813 of 1,531,181 params (blocks 10+ and head)
+ep  1 loss 1.688 val acc 0.553 macroF1 0.542 (269s)
+ep  2 loss 1.451 val acc 0.573 macroF1 0.562 (221s)
+ep  3 loss 1.340 val acc 0.569 macroF1 0.548 (177s)
+ep  4 loss 1.229 val acc 0.560 macroF1 0.556 (76s)
+ep  5 loss 1.120 val acc 0.576 macroF1 0.564 (74s)
+ep  6 loss 1.009 val acc 0.570 macroF1 0.561 (74s)
+ep  7 loss 0.899 val acc 0.578 macroF1 0.568 (74s)
+ep  8 loss 0.798 val acc 0.565 macroF1 0.565 (73s)
+ep  9 loss 0.713 val acc 0.574 macroF1 0.569 (75s)
+ep 10 loss 0.659 val acc 0.571 macroF1 0.566 (72s)
+ep 11 loss 0.631 val acc 0.562 macroF1 0.559 (73s)
+ep 12 loss 0.607 val acc 0.567 macroF1 0.562 (73s)
+early stop
+TEST acc 0.568 macroF1 0.565 train 22.2 min, 6.2 ms/img, 6.3 MB

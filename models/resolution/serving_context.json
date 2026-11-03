@@ -1,0 +1,2153 @@
+{
+ "built_from": "last 30 days before 2026-11-02",
+ "city": {
+  "n_city_prev_1d": 2555.0
+ },
+ "subtype_defaults": {
+  "\"parking_lane\"": {
+   "service_name": "Shared Spaces Request",
+   "agency_responsible": "Shared Spaces",
+   "service_details": "\"other\""
+  },
+  "\"parking_lane\",\"roadway\"": {
+   "service_name": "Shared Spaces Request",
+   "agency_responsible": "Shared Spaces",
+   "service_details": "\"space_heaters\""
+  },
+  "\"private_lot\"": {
+   "service_name": "Shared Spaces Request",
+   "agency_responsible": "Shared Spaces",
+   "service_details": "\"other\""
+  },
+  "\"roadway\"": {
+   "service_name": "Shared Spaces Request",
+   "agency_responsible": "Shared Spaces",
+   "service_details": "\"other\""
+  },
+  "\"sidewalk\"": {
+   "service_name": "Shared Spaces Request",
+   "agency_responsible": "Shared Spaces",
+   "service_details": "\"other\""
+  },
+  "abandoned_vehicle": {
+   "service_name": "Parking Enforcement",
+   "agency_responsible": "MTA - Abandoned Vehicles Work",
+   "service_details": null
+  },
+  "abandoned_vehicle_callback": {
+   "service_name": "Parking Enforcement",
+   "agency_responsible": "MTA - Abandoned Vehicles Callback Requests",
+   "service_details": null
+  },
+  "add_garbage_can": {
+   "service_name": "Litter Receptacle Maintenance",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": null
+  },
+  "affixed_improperly": {
+   "service_name": "Illegal Postings",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": null
+  },
+  "amplified_sound_electronics": {
+   "service_name": "Noise",
+   "agency_responsible": "Noise Report",
+   "service_details": null
+  },
+  "animal_care_and_control": {
+   "service_name": "General Request",
+   "agency_responsible": "Animal Care and Control - Dead Animal",
+   "service_details": "dead_animal request_for_service"
+  },
+  "bathroom": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DBI - Housing Inspection",
+   "service_details": null
+  },
+  "benches_on_sidewalk": {
+   "service_name": "Damage Property",
+   "agency_responsible": "PW - Street Use and Mapping",
+   "service_details": null
+  },
+  "bike_rack": {
+   "service_name": "Damage Property",
+   "agency_responsible": "MTA - Sign Shop",
+   "service_details": null
+  },
+  "black_particles": {
+   "service_name": "Water Quality",
+   "agency_responsible": "PUC - Water Quality Report",
+   "service_details": "residence"
+  },
+  "blocked_exit_common_areas": {
+   "service_name": "Residential Building",
+   "agency_responsible": "SFFD - Bureau of Fire Prevention",
+   "service_details": null
+  },
+  "blocked_parking_space_or_strip": {
+   "service_name": "Blocked Street and Sidewalk",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": "dumpster"
+  },
+  "blocked_sidewalk": {
+   "service_name": "Blocked Street and Sidewalk",
+   "agency_responsible": "MTA - Access/Mobility Services Received",
+   "service_details": "lime_standing_scooter"
+  },
+  "blocking_bicycle_lane": {
+   "service_name": "Parking Enforcement",
+   "agency_responsible": "MTA - Parking Enforcement Dispatch",
+   "service_details": null
+  },
+  "blocking_driveway_cite_only": {
+   "service_name": "Parking Enforcement",
+   "agency_responsible": "MTA - Parking Enforcement Dispatch",
+   "service_details": null
+  },
+  "blocking_driveway_cite_tow": {
+   "service_name": "Parking Enforcement",
+   "agency_responsible": "MTA - Parking Enforcement Dispatch",
+   "service_details": null
+  },
+  "board_of_supervisors": {
+   "service_name": "General Request",
+   "agency_responsible": "Healthy Streets Operation Center",
+   "service_details": "board_of_supervisors complaint"
+  },
+  "building_inspection": {
+   "service_name": "General Request",
+   "agency_responsible": "DBI - Public Services",
+   "service_details": "public_services request_for_service"
+  },
+  "catch_basin": {
+   "service_name": "Sewer",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": "maintenance"
+  },
+  "citations_payment_status": {
+   "service_name": "Citations Payment Status",
+   "agency_responsible": "MTA - Citations/RPP Accounting",
+   "service_details": null
+  },
+  "citations_protest_status": {
+   "service_name": "Citations Protest Status",
+   "agency_responsible": "MTA - Citations/RPP",
+   "service_details": null
+  },
+  "citations_questions_comments": {
+   "service_name": "Citations Questions Comments",
+   "agency_responsible": "MTA - Citations/RPP",
+   "service_details": null
+  },
+  "city_hall": {
+   "service_name": "General Request",
+   "agency_responsible": "City Hall - Events",
+   "service_details": "city_hall_events customer_callback"
+  },
+  "cloudy_milky_appearance": {
+   "service_name": "Water Quality",
+   "agency_responsible": "PUC - Water Quality Report",
+   "service_details": "residence"
+  },
+  "clutter_hoarder_unit_interior_storage": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DBI - Housing Inspection",
+   "service_details": null
+  },
+  "comment_question_suggestion": {
+   "service_name": "Muni Service Feedback",
+   "agency_responsible": "MTA - Muni Feedback Received",
+   "service_details": "comment_question_suggestion"
+  },
+  "comment_question_suggestion_employee": {
+   "service_name": "Muni Employee Feedback",
+   "agency_responsible": "MTA - Muni Feedback Received",
+   "service_details": "comment_question_suggestion_employee"
+  },
+  "comment_question_suggestion_service": {
+   "service_name": "Muni Service Feedback",
+   "agency_responsible": "MTA - Muni Feedback Received",
+   "service_details": "comment_question_suggestion_service"
+  },
+  "complaint": {
+   "service_name": "OOC Feedback",
+   "agency_responsible": "Office of Cannabis",
+   "service_details": "other"
+  },
+  "complaint_construction": {
+   "service_name": "Muni Service Feedback",
+   "agency_responsible": "MTA - Muni Feedback Received",
+   "service_details": "construction_muni_service_stop_reroutes"
+  },
+  "complaint_discourteous_unprofessional": {
+   "service_name": "Muni Employee Feedback",
+   "agency_responsible": "MTA - Muni Feedback Received",
+   "service_details": "discourteous_rude"
+  },
+  "complaint_fare_payment_methods": {
+   "service_name": "Muni Service Feedback",
+   "agency_responsible": "MTA - Muni Feedback Received",
+   "service_details": "munimobile_app_or_broken_fare_machine"
+  },
+  "complaint_frequency_reliability": {
+   "service_name": "Muni Service Feedback",
+   "agency_responsible": "MTA - Muni Feedback Received",
+   "service_details": "delays"
+  },
+  "complaint_information_systems": {
+   "service_name": "Muni Service Feedback",
+   "agency_responsible": "MTA - Muni Feedback Received",
+   "service_details": "platform_digital_signs"
+  },
+  "complaint_maintenance_repair": {
+   "service_name": "Muni Service Feedback",
+   "agency_responsible": "MTA - Muni Feedback Received",
+   "service_details": "vehicle_maintenance_noise"
+  },
+  "complaint_pass_ups_denial_inattention": {
+   "service_name": "Muni Employee Feedback",
+   "agency_responsible": "MTA - Muni Feedback Received",
+   "service_details": "waiting_at_stop"
+  },
+  "complaint_safety_security": {
+   "service_name": "Muni Service Feedback",
+   "agency_responsible": "MTA - Muni Feedback Received",
+   "service_details": "disorderly_behavior_disturbance"
+  },
+  "complaint_signs_maps": {
+   "service_name": "Muni Service Feedback",
+   "agency_responsible": "MTA - Muni Feedback Received",
+   "service_details": "signs_maps"
+  },
+  "complaint_special_events": {
+   "service_name": "Muni Service Feedback",
+   "agency_responsible": "MTA - Muni Feedback Received",
+   "service_details": "special_events_muni_service_stop_reroutes"
+  },
+  "complaint_unsafe_operation": {
+   "service_name": "Muni Employee Feedback",
+   "agency_responsible": "MTA - Muni Feedback Received",
+   "service_details": "other_unsafe_driving"
+  },
+  "construction_plate_shifted": {
+   "service_name": "Street Defect",
+   "agency_responsible": "PW - Street Use and Mapping",
+   "service_details": null
+  },
+  "construction_private_property": {
+   "service_name": "Noise",
+   "agency_responsible": "DBI - Inspection Services",
+   "service_details": null
+  },
+  "construction_public": {
+   "service_name": "Noise",
+   "agency_responsible": "PW - Street Use and Mapping",
+   "service_details": null
+  },
+  "curb_or_curb_ramp_defect": {
+   "service_name": "Sidewalk and Curb",
+   "agency_responsible": "PW - Street Use and Mapping",
+   "service_details": null
+  },
+  "damaged_side_sewer_vent_cover": {
+   "service_name": "Sidewalk and Curb",
+   "agency_responsible": "PW - Street Use and Mapping",
+   "service_details": null
+  },
+  "damaged_tree": {
+   "service_name": "Tree Maintenance",
+   "agency_responsible": "PW - Urban Forestry",
+   "service_details": "fallen_tree"
+  },
+  "damaging_property": {
+   "service_name": "Tree Maintenance",
+   "agency_responsible": "PW - Urban Forestry",
+   "service_details": "hitting_window_or_building"
+  },
+  "debris_box_maintenance_overflowing": {
+   "service_name": "Litter Receptacle Maintenance",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": null
+  },
+  "deck_stairs_handrails": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DBI - Housing Inspection",
+   "service_details": null
+  },
+  "delivery_service_business": {
+   "service_name": "Noise",
+   "agency_responsible": "Noise Report",
+   "service_details": null
+  },
+  "delivery_service_vehicle": {
+   "service_name": "Noise",
+   "agency_responsible": "Noise Report",
+   "service_details": null
+  },
+  "dirty_water": {
+   "service_name": "Water Quality",
+   "agency_responsible": "PUC - Water Quality Report",
+   "service_details": "residence"
+  },
+  "discolored": {
+   "service_name": "Water Quality",
+   "agency_responsible": "PUC - Water Quality Report",
+   "service_details": "residence"
+  },
+  "do_not_enter": {
+   "service_name": "MTA Parking Traffic Signs Normal Priority",
+   "agency_responsible": "MTA - Sign Shop",
+   "service_details": "defaced ok"
+  },
+  "door_lock_issue": {
+   "service_name": "Litter Receptacle Maintenance",
+   "agency_responsible": "Recology - Litter",
+   "service_details": null
+  },
+  "doors_windows_broken_defective": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DBI - Housing Inspection",
+   "service_details": null
+  },
+  "double_parking": {
+   "service_name": "Parking Enforcement",
+   "agency_responsible": "MTA - Parking Enforcement Dispatch",
+   "service_details": null
+  },
+  "electrical_hazardous_condition": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DBI - Housing Inspection",
+   "service_details": null
+  },
+  "electrical_non_hazard": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DBI - Housing Inspection",
+   "service_details": null
+  },
+  "elevators_everthing_else": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DBI - Housing Inspection",
+   "service_details": null
+  },
+  "elevators_no_working_elevator_7_or_more_stories": {
+   "service_name": "Residential Building",
+   "agency_responsible": "SFFD - Bureau of Fire Prevention",
+   "service_details": null
+  },
+  "emergency_equipment": {
+   "service_name": "Noise",
+   "agency_responsible": "Noise Report",
+   "service_details": null
+  },
+  "encampment": {
+   "service_name": "Encampment",
+   "agency_responsible": "Healthy Streets Operation Center",
+   "service_details": null
+  },
+  "entertainment": {
+   "service_name": "Noise",
+   "agency_responsible": "Entertainment Commission",
+   "service_details": null
+  },
+  "entertainment_commission": {
+   "service_name": "General Request",
+   "agency_responsible": "Entertainment Commission",
+   "service_details": "entertainment_commission request_for_service"
+  },
+  "environment": {
+   "service_name": "General Request",
+   "agency_responsible": "Environment",
+   "service_details": "environment request_for_service"
+  },
+  "fire_alarm_system": {
+   "service_name": "Residential Building",
+   "agency_responsible": "SFFD - Bureau of Fire Prevention",
+   "service_details": null
+  },
+  "fire_department": {
+   "service_name": "General Request",
+   "agency_responsible": "SFFD - Bureau of Fire Prevention",
+   "service_details": "bureau_fire_prevention request_for_service"
+  },
+  "fire_hazard": {
+   "service_name": "Residential Building",
+   "agency_responsible": "SFFD - Bureau of Fire Prevention",
+   "service_details": null
+  },
+  "fire_police_callbox": {
+   "service_name": "Damage Property",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": null
+  },
+  "flooding": {
+   "service_name": "Sewer",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": "on_street"
+  },
+  "freeway_signs_on_street": {
+   "service_name": "MTA Parking Traffic Signs Normal Priority",
+   "agency_responsible": "311 - Service Request",
+   "service_details": "defaced ok"
+  },
+  "garbage_and_debris": {
+   "service_name": "Street and Sidewalk Cleaning",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": "other_loose_garbage_debris_yard_waste"
+  },
+  "garbage_receptacles": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DBI - Housing Inspection",
+   "service_details": null
+  },
+  "garbage_recycling_collection": {
+   "service_name": "Noise",
+   "agency_responsible": "Recology - Noise",
+   "service_details": null
+  },
+  "general_maintenance_not_in_list_above": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DBI - Housing Inspection",
+   "service_details": null
+  },
+  "heat_lack_of_heat": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DBI - Housing Inspection",
+   "service_details": null
+  },
+  "home_improvement_maintenance": {
+   "service_name": "Noise",
+   "agency_responsible": "Noise Report",
+   "service_details": null
+  },
+  "homelessness_and_supportive_housing": {
+   "service_name": "General Request",
+   "agency_responsible": "Healthy Streets Operation Center",
+   "service_details": "housing_homeless request_for_service"
+  },
+  "hospital": {
+   "service_name": "Noise",
+   "agency_responsible": "Noise Report",
+   "service_details": null
+  },
+  "hot_water_lack_of_hot_water": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DBI - Housing Inspection",
+   "service_details": null
+  },
+  "human_services_agency": {
+   "service_name": "General Request",
+   "agency_responsible": "HSA - Other",
+   "service_details": "disability_and_accessibility request_for_service"
+  },
+  "illegal_construction_no_permit_exceeds_permit_scope": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DBI - Building Inspection",
+   "service_details": null
+  },
+  "illegal_guest_room_conversions": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DBI - Housing Inspection",
+   "service_details": null
+  },
+  "inadequately_maintained_building_exterior": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DBI - Housing Inspection",
+   "service_details": null
+  },
+  "incident_report": {
+   "service_name": "Autonomous Vehicle Complaints",
+   "agency_responsible": "MTA - Autonomous Vehicles Complaints",
+   "service_details": "stopped_improperly waymo"
+  },
+  "infestation_bed_bugs": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DPH Environmental Health",
+   "service_details": null
+  },
+  "infestation_rodent_insect": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DPH Environmental Health",
+   "service_details": null
+  },
+  "kiosk_public_toilet": {
+   "service_name": "Damage Property",
+   "agency_responsible": "PW - Street Use and Mapping",
+   "service_details": null
+  },
+  "landscaping": {
+   "service_name": "Tree Maintenance",
+   "agency_responsible": "PW - Urban Forestry",
+   "service_details": "backfill_tree_basin"
+  },
+  "large_vehicle": {
+   "service_name": "Parking Enforcement",
+   "agency_responsible": "MTA - Abandoned Vehicles Work",
+   "service_details": null
+  },
+  "leaks": {
+   "service_name": "Waste of Water",
+   "agency_responsible": "PUC - Water Waste",
+   "service_details": "Residential_multi_family"
+  },
+  "light": {
+   "service_name": "Streetlights",
+   "agency_responsible": "PUC - Streetlights",
+   "service_details": "light_burnt_out"
+  },
+  "liner_issue_damaged_missing": {
+   "service_name": "Litter Receptacle Maintenance",
+   "agency_responsible": "Recology - Litter",
+   "service_details": null
+  },
+  "mail_service_delivery_problem": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DBI - Housing Inspection",
+   "service_details": null
+  },
+  "major_event_venue": {
+   "service_name": "Noise",
+   "agency_responsible": "Entertainment Commission",
+   "service_details": null
+  },
+  "manhole_cover_off": {
+   "service_name": "Street Defect",
+   "agency_responsible": "PW - Street Use and Mapping",
+   "service_details": null
+  },
+  "mechanical_equipment": {
+   "service_name": "Noise",
+   "agency_responsible": "DPH Environmental Health - Noise",
+   "service_details": null
+  },
+  "missing_side_sewer_vent_cover": {
+   "service_name": "Street Defect",
+   "agency_responsible": "PW - Street Use and Mapping",
+   "service_details": null
+  },
+  "mobile_food_facility": {
+   "service_name": "Noise",
+   "agency_responsible": "DPH Environmental Health - Noise",
+   "service_details": null
+  },
+  "mold_and_mildew": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DBI - Housing Inspection",
+   "service_details": null
+  },
+  "moving_residential_property": {
+   "service_name": "Temporary Sign Applications",
+   "agency_responsible": "MTA - Temporary Sign Request Printing",
+   "service_details": null
+  },
+  "multiple_postings": {
+   "service_name": "Illegal Postings",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": null
+  },
+  "municipal_transportation_agency": {
+   "service_name": "General Request",
+   "agency_responsible": "MTA - Access/Mobility Services Received",
+   "service_details": "paint_shop request_for_service"
+  },
+  "news_rack": {
+   "service_name": "Damage Property",
+   "agency_responsible": "PW - Street Use and Mapping",
+   "service_details": null
+  },
+  "no_left_turn": {
+   "service_name": "MTA Parking Traffic Signs Normal Priority",
+   "agency_responsible": "MTA - Sign Shop",
+   "service_details": "defaced ok"
+  },
+  "no_parking": {
+   "service_name": "MTA Parking Traffic Signs Normal Priority",
+   "agency_responsible": "MTA - Sign Shop",
+   "service_details": "defaced ok"
+  },
+  "no_posting_date": {
+   "service_name": "Illegal Postings",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": null
+  },
+  "noise_caused_by_building_systems": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DBI - Housing Inspection",
+   "service_details": null
+  },
+  "not_offensive": {
+   "service_name": "Graffiti Public",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": "pole"
+  },
+  "odor_water": {
+   "service_name": "Water Quality",
+   "agency_responsible": "PUC - Water Quality Report",
+   "service_details": "residence"
+  },
+  "offensive": {
+   "service_name": "Graffiti Public",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": "building_commercial"
+  },
+  "one_way": {
+   "service_name": "MTA Parking Traffic Signs Normal Priority",
+   "agency_responsible": "MTA - Sign Shop",
+   "service_details": "defaced ok"
+  },
+  "other": {
+   "service_name": "MTA Parking Traffic Signs Normal Priority",
+   "agency_responsible": "MTA - Sign Shop",
+   "service_details": "defaced ok"
+  },
+  "other_enter_additional_details_below": {
+   "service_name": "Tree Maintenance",
+   "agency_responsible": "PW - Urban Forestry",
+   "service_details": "na"
+  },
+  "other_excessive_noise": {
+   "service_name": "Noise",
+   "agency_responsible": "Noise Report",
+   "service_details": null
+  },
+  "other_garbage_can_repair": {
+   "service_name": "Litter Receptacle Maintenance",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": null
+  },
+  "other_illegal_parking": {
+   "service_name": "Parking Enforcement",
+   "agency_responsible": "MTA - Parking Enforcement Dispatch",
+   "service_details": null
+  },
+  "other_including_abandoned_toter": {
+   "service_name": "Litter Receptacle Maintenance",
+   "agency_responsible": "Recology - Litter",
+   "service_details": null
+  },
+  "other_misc_feedback_requests": {
+   "service_name": "Muni Service Feedback",
+   "agency_responsible": "MTA - Muni Feedback Received",
+   "service_details": "other_misc_feedback_requests"
+  },
+  "other_parking_type": {
+   "service_name": "MTA Parking Traffic Signs Normal Priority",
+   "agency_responsible": "MTA - Sign Shop",
+   "service_details": "defaced ok"
+  },
+  "other_reallocate": {
+   "service_name": "Noise",
+   "agency_responsible": "Noise Report",
+   "service_details": null
+  },
+  "overgrown_tree": {
+   "service_name": "Tree Maintenance",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": "other"
+  },
+  "paint_lead_violating_safe_practices": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DBI - Housing Inspection",
+   "service_details": null
+  },
+  "paint_peeling": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DBI - Housing Inspection",
+   "service_details": null
+  },
+  "park_patrol": {
+   "service_name": "RPD General",
+   "agency_responsible": "RPD - PSA",
+   "service_details": "park_rules_violation"
+  },
+  "park_services_area": {
+   "service_name": "RPD General",
+   "agency_responsible": "RPD - GGP",
+   "service_details": "trash_dumping"
+  },
+  "parking_meter": {
+   "service_name": "Damage Property",
+   "agency_responsible": "MTA - Parking Meter Shop",
+   "service_details": null
+  },
+  "parking_on_sidewalk": {
+   "service_name": "Parking Enforcement",
+   "agency_responsible": "MTA - Parking Enforcement Dispatch",
+   "service_details": null
+  },
+  "pavement_defect": {
+   "service_name": "Street Defect",
+   "agency_responsible": "PW - Street and Sewer Repair",
+   "service_details": null
+  },
+  "permit_parking": {
+   "service_name": "MTA Parking Traffic Signs Normal Priority",
+   "agency_responsible": "MTA - Sign Shop",
+   "service_details": "defaced ok"
+  },
+  "planning": {
+   "service_name": "General Request",
+   "agency_responsible": "Planning",
+   "service_details": "planning request_for_service"
+  },
+  "plumbing_broken_leaking": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DBI - Housing Inspection",
+   "service_details": null
+  },
+  "pole": {
+   "service_name": "Streetlights",
+   "agency_responsible": "PUC - Streetlights",
+   "service_details": "pole_wires_exposed"
+  },
+  "port_authority": {
+   "service_name": "General Request",
+   "agency_responsible": "Port Authority",
+   "service_details": "port_authority request_for_service"
+  },
+  "post_abatement_inspection": {
+   "service_name": "Graffiti Private",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": "building_residential"
+  },
+  "posted_on_directional_sign": {
+   "service_name": "Illegal Postings",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": null
+  },
+  "posted_on_historic_street_light": {
+   "service_name": "Illegal Postings",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": null
+  },
+  "posted_on_traffic_light": {
+   "service_name": "Illegal Postings",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": null
+  },
+  "posted_over_70_days": {
+   "service_name": "Illegal Postings",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": null
+  },
+  "posting_too_high_on_pole": {
+   "service_name": "Illegal Postings",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": null
+  },
+  "posting_too_large_in_size": {
+   "service_name": "Illegal Postings",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": null
+  },
+  "praise_employee": {
+   "service_name": "Muni Employee Feedback",
+   "agency_responsible": "MTA - Muni Feedback Received",
+   "service_details": "praise_employee"
+  },
+  "praise_service": {
+   "service_name": "Muni Service Feedback",
+   "agency_responsible": "MTA - Muni Feedback Received",
+   "service_details": "praise_service"
+  },
+  "protest_speech_bullhorns": {
+   "service_name": "Noise",
+   "agency_responsible": "Noise Report",
+   "service_details": null
+  },
+  "public_health": {
+   "service_name": "General Request",
+   "agency_responsible": "DPH Environmental Health",
+   "service_details": "environmental_health request_for_service"
+  },
+  "public_speech": {
+   "service_name": "Noise",
+   "agency_responsible": "Noise Report",
+   "service_details": null
+  },
+  "public_stairway_defect": {
+   "service_name": "Sidewalk and Curb",
+   "agency_responsible": "PW - Street Use and Mapping",
+   "service_details": null
+  },
+  "public_utilities_commission": {
+   "service_name": "General Request",
+   "agency_responsible": "PUC - Sewer Ops",
+   "service_details": "sewer request_for_service"
+  },
+  "public_works": {
+   "service_name": "General Request",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": "bsm complaint"
+  },
+  "pullbox": {
+   "service_name": "Streetlights",
+   "agency_responsible": "PUC - Streetlights",
+   "service_details": "pullbox_wires_exposed"
+  },
+  "recreation_and_park_department": {
+   "service_name": "General Request",
+   "agency_responsible": "RPD - PSA",
+   "service_details": "rpd_other request_for_service"
+  },
+  "remove_garbage_can": {
+   "service_name": "Litter Receptacle Maintenance",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": null
+  },
+  "rent_board": {
+   "service_name": "General Request",
+   "agency_responsible": "Rent Board - Fee and Housing Inventory",
+   "service_details": "fee_housing_inventory request_for_service"
+  },
+  "rpp_application_status": {
+   "service_name": "RPP Application Status",
+   "agency_responsible": "MTA - Citations/RPP",
+   "service_details": null
+  },
+  "runoff_from_irrigation": {
+   "service_name": "Waste of Water",
+   "agency_responsible": "PUC - Water Waste",
+   "service_details": "residential_single_family"
+  },
+  "security_inadequately_secured_perimeter": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DBI - Housing Inspection",
+   "service_details": null
+  },
+  "sewage_back-up_discharge": {
+   "service_name": "Sewer",
+   "agency_responsible": "PUC - Sewer Ops",
+   "service_details": "from_side_sewer_vent"
+  },
+  "sewer_odor": {
+   "service_name": "Sewer",
+   "agency_responsible": "PUC - Sewer Ops",
+   "service_details": "from_other_location"
+  },
+  "sidewalk_defect": {
+   "service_name": "Sidewalk and Curb",
+   "agency_responsible": "PW - Street Use and Mapping",
+   "service_details": "collapsed_sidewalk"
+  },
+  "sirens": {
+   "service_name": "Noise",
+   "agency_responsible": "Noise Report",
+   "service_details": null
+  },
+  "speed_limit": {
+   "service_name": "MTA Parking Traffic Signs Normal Priority",
+   "agency_responsible": "MTA - Sign Shop",
+   "service_details": "defaced ok"
+  },
+  "stop": {
+   "service_name": "MTA Parking Traffic Signs Normal Priority",
+   "agency_responsible": "MTA - Sign Shop",
+   "service_details": "defaced ok"
+  },
+  "street_cleaning": {
+   "service_name": "MTA Parking Traffic Signs Normal Priority",
+   "agency_responsible": "MTA - Sign Shop",
+   "service_details": "defaced ok"
+  },
+  "street_name": {
+   "service_name": "MTA Parking Traffic Signs Normal Priority",
+   "agency_responsible": "MTA - Sign Shop",
+   "service_details": "defaced ok"
+  },
+  "structural_maintenance": {
+   "service_name": "RPD General",
+   "agency_responsible": "RPD - GGP",
+   "service_details": "graffiti"
+  },
+  "taxi_complaint": {
+   "service_name": "Taxi Complaint",
+   "agency_responsible": "MTA - Taxi Complaints Normal",
+   "service_details": "unsafe_driving"
+  },
+  "taxi_compliment": {
+   "service_name": "Taxi Compliment",
+   "agency_responsible": "MTA - Taxi Compliments",
+   "service_details": null
+  },
+  "technology": {
+   "service_name": "General Request",
+   "agency_responsible": "Technology - Wifi Support/Feedback",
+   "service_details": "dtis_wifi_support_and_feedback request_for_service"
+  },
+  "tipped_over": {
+   "service_name": "Litter Receptacle Maintenance",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": null
+  },
+  "toters_left_out_24x7": {
+   "service_name": "Litter Receptacle Maintenance",
+   "agency_responsible": "PW - Street and Environmental Services",
+   "service_details": null
+  },
+  "tow_away": {
+   "service_name": "MTA Parking Traffic Signs Normal Priority",
+   "agency_responsible": "MTA - Sign Shop",
+   "service_details": "defaced ok"
+  },
+  "traffic": {
+   "service_name": "Noise",
+   "agency_responsible": "Noise Report",
+   "service_details": null
+  },
+  "traffic_signal": {
+   "service_name": "Damage Property",
+   "agency_responsible": "MTA - Traffic Signal",
+   "service_details": null
+  },
+  "transit_shelter_platform": {
+   "service_name": "Damage Property",
+   "agency_responsible": "Clear Channel - Transit",
+   "service_details": null
+  },
+  "transit_shelter_platform_hazardous": {
+   "service_name": "Damage Property",
+   "agency_responsible": "Clear Channel - Transit",
+   "service_details": null
+  },
+  "urban_forestry": {
+   "service_name": "RPD General",
+   "agency_responsible": "RPD - GGP",
+   "service_details": "tree_needs_inspection"
+  },
+  "utility_excavation": {
+   "service_name": "Sidewalk and Curb",
+   "agency_responsible": "PW - Street Use and Mapping",
+   "service_details": null
+  },
+  "vehicle_car_alarm": {
+   "service_name": "Noise",
+   "agency_responsible": "Noise Report",
+   "service_details": null
+  },
+  "ventilation_inadequate_or_none": {
+   "service_name": "Residential Building",
+   "agency_responsible": "DBI - Housing Inspection",
+   "service_details": null
+  },
+  "warning": {
+   "service_name": "MTA Parking Traffic Signs Normal Priority",
+   "agency_responsible": "MTA - Sign Shop",
+   "service_details": "defaced ok"
+  },
+  "water_leak": {
+   "service_name": "Sewer",
+   "agency_responsible": "PUC - Water",
+   "service_details": "other"
+  }
+ },
+ "service_subtype": {
+  "\"parking_lane\"": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 2.0,
+   "open_subtype_at_t": 29.0
+  },
+  "\"roadway\",\"sidewalk\"": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 1.0,
+   "open_subtype_at_t": 5.0
+  },
+  "\"sidewalk\"": {
+   "n_subtype_prev_1d": 1.0,
+   "n_subtype_prev_7d": 7.0,
+   "open_subtype_at_t": 71.0
+  },
+  "abandoned_vehicle": {
+   "n_subtype_prev_1d": 74.0,
+   "n_subtype_prev_7d": 481.0,
+   "open_subtype_at_t": 297.0
+  },
+  "abandoned_vehicle_callback": {
+   "n_subtype_prev_1d": 0.5,
+   "n_subtype_prev_7d": 4.5,
+   "open_subtype_at_t": 95.5
+  },
+  "add_garbage_can": {
+   "n_subtype_prev_1d": 2.0,
+   "n_subtype_prev_7d": 16.0,
+   "open_subtype_at_t": 182.0
+  },
+  "affixed_improperly": {
+   "n_subtype_prev_1d": 3.0,
+   "n_subtype_prev_7d": 25.0,
+   "open_subtype_at_t": 122.0
+  },
+  "amplified_sound_electronics": {
+   "n_subtype_prev_1d": 6.0,
+   "n_subtype_prev_7d": 37.0,
+   "open_subtype_at_t": 6.0
+  },
+  "animal_care_and_control": {
+   "n_subtype_prev_1d": 5.0,
+   "n_subtype_prev_7d": 28.0,
+   "open_subtype_at_t": 14.0
+  },
+  "bathroom": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 2.0,
+   "open_subtype_at_t": 0.0
+  },
+  "benches_on_sidewalk": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 2.0,
+   "open_subtype_at_t": 29.0
+  },
+  "bike_rack": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 1.5,
+   "open_subtype_at_t": 14.5
+  },
+  "blocked_exit_common_areas": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 2.0,
+   "open_subtype_at_t": 20.0
+  },
+  "blocked_parking_space_or_strip": {
+   "n_subtype_prev_1d": 3.0,
+   "n_subtype_prev_7d": 21.0,
+   "open_subtype_at_t": 99.0
+  },
+  "blocked_sidewalk": {
+   "n_subtype_prev_1d": 75.0,
+   "n_subtype_prev_7d": 501.0,
+   "open_subtype_at_t": 713.0
+  },
+  "blocking_bicycle_lane": {
+   "n_subtype_prev_1d": 5.0,
+   "n_subtype_prev_7d": 35.0,
+   "open_subtype_at_t": 2.0
+  },
+  "blocking_driveway_cite_only": {
+   "n_subtype_prev_1d": 115.0,
+   "n_subtype_prev_7d": 824.0,
+   "open_subtype_at_t": 69.0
+  },
+  "blocking_driveway_cite_tow": {
+   "n_subtype_prev_1d": 64.0,
+   "n_subtype_prev_7d": 450.0,
+   "open_subtype_at_t": 53.0
+  },
+  "board_of_supervisors": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 2.0,
+   "open_subtype_at_t": 230.0
+  },
+  "building_inspection": {
+   "n_subtype_prev_1d": 4.5,
+   "n_subtype_prev_7d": 31.0,
+   "open_subtype_at_t": 17.5
+  },
+  "catch_basin": {
+   "n_subtype_prev_1d": 3.0,
+   "n_subtype_prev_7d": 21.5,
+   "open_subtype_at_t": 40.0
+  },
+  "citations_questions_comments": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 1.0,
+   "open_subtype_at_t": 2.0
+  },
+  "clutter_hoarder_unit_interior_storage": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 1.5,
+   "open_subtype_at_t": 0.0
+  },
+  "comment_question_suggestion_employee": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 5.0,
+   "open_subtype_at_t": 10.0
+  },
+  "comment_question_suggestion_service": {
+   "n_subtype_prev_1d": 0.5,
+   "n_subtype_prev_7d": 3.5,
+   "open_subtype_at_t": 12.0
+  },
+  "complaint_discourteous_unprofessional": {
+   "n_subtype_prev_1d": 4.0,
+   "n_subtype_prev_7d": 27.5,
+   "open_subtype_at_t": 51.0
+  },
+  "complaint_fare_payment_methods": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 2.0,
+   "open_subtype_at_t": 24.0
+  },
+  "complaint_frequency_reliability": {
+   "n_subtype_prev_1d": 9.0,
+   "n_subtype_prev_7d": 56.0,
+   "open_subtype_at_t": 34.0
+  },
+  "complaint_information_systems": {
+   "n_subtype_prev_1d": 2.0,
+   "n_subtype_prev_7d": 16.0,
+   "open_subtype_at_t": 2.0
+  },
+  "complaint_maintenance_repair": {
+   "n_subtype_prev_1d": 4.0,
+   "n_subtype_prev_7d": 30.0,
+   "open_subtype_at_t": 165.0
+  },
+  "complaint_pass_ups_denial_inattention": {
+   "n_subtype_prev_1d": 7.0,
+   "n_subtype_prev_7d": 54.0,
+   "open_subtype_at_t": 61.5
+  },
+  "complaint_safety_security": {
+   "n_subtype_prev_1d": 3.0,
+   "n_subtype_prev_7d": 18.0,
+   "open_subtype_at_t": 26.0
+  },
+  "complaint_signs_maps": {
+   "n_subtype_prev_1d": 1.5,
+   "n_subtype_prev_7d": 9.0,
+   "open_subtype_at_t": 37.0
+  },
+  "complaint_unsafe_operation": {
+   "n_subtype_prev_1d": 2.0,
+   "n_subtype_prev_7d": 20.0,
+   "open_subtype_at_t": 37.0
+  },
+  "construction_plate_shifted": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 3.0,
+   "open_subtype_at_t": 14.0
+  },
+  "construction_private_property": {
+   "n_subtype_prev_1d": 3.0,
+   "n_subtype_prev_7d": 19.0,
+   "open_subtype_at_t": 7.0
+  },
+  "construction_public": {
+   "n_subtype_prev_1d": 2.0,
+   "n_subtype_prev_7d": 14.0,
+   "open_subtype_at_t": 37.0
+  },
+  "curb_or_curb_ramp_defect": {
+   "n_subtype_prev_1d": 5.0,
+   "n_subtype_prev_7d": 33.5,
+   "open_subtype_at_t": 153.0
+  },
+  "damaged_side_sewer_vent_cover": {
+   "n_subtype_prev_1d": 1.5,
+   "n_subtype_prev_7d": 10.5,
+   "open_subtype_at_t": 41.0
+  },
+  "damaged_tree": {
+   "n_subtype_prev_1d": 13.0,
+   "n_subtype_prev_7d": 93.0,
+   "open_subtype_at_t": 2381.5
+  },
+  "damaging_property": {
+   "n_subtype_prev_1d": 8.0,
+   "n_subtype_prev_7d": 47.0,
+   "open_subtype_at_t": 1105.0
+  },
+  "debris_box_maintenance_overflowing": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 1.0,
+   "open_subtype_at_t": 2.0
+  },
+  "delivery_service_vehicle": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 1.5,
+   "open_subtype_at_t": 0.0
+  },
+  "dirty_water": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 2.0,
+   "open_subtype_at_t": 0.0
+  },
+  "discolored": {
+   "n_subtype_prev_1d": 2.0,
+   "n_subtype_prev_7d": 9.5,
+   "open_subtype_at_t": 1.5
+  },
+  "do_not_enter": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 2.5,
+   "open_subtype_at_t": 24.0
+  },
+  "door_lock_issue": {
+   "n_subtype_prev_1d": 3.0,
+   "n_subtype_prev_7d": 22.5,
+   "open_subtype_at_t": 16.0
+  },
+  "doors_windows_broken_defective": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 2.5,
+   "open_subtype_at_t": 1.0
+  },
+  "double_parking": {
+   "n_subtype_prev_1d": 6.0,
+   "n_subtype_prev_7d": 37.0,
+   "open_subtype_at_t": 0.0
+  },
+  "electrical_hazardous_condition": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 5.0,
+   "open_subtype_at_t": 1.0
+  },
+  "electrical_non_hazard": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 3.0,
+   "open_subtype_at_t": 0.0
+  },
+  "elevators_everthing_else": {
+   "n_subtype_prev_1d": 1.0,
+   "n_subtype_prev_7d": 3.5,
+   "open_subtype_at_t": 0.5
+  },
+  "elevators_no_working_elevator_7_or_more_stories": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 3.0,
+   "open_subtype_at_t": 38.0
+  },
+  "encampment": {
+   "n_subtype_prev_1d": 126.0,
+   "n_subtype_prev_7d": 847.0,
+   "open_subtype_at_t": 2390.0
+  },
+  "entertainment": {
+   "n_subtype_prev_1d": 9.5,
+   "n_subtype_prev_7d": 42.0,
+   "open_subtype_at_t": 38.0
+  },
+  "fire_alarm_system": {
+   "n_subtype_prev_1d": 0.5,
+   "n_subtype_prev_7d": 2.5,
+   "open_subtype_at_t": 27.5
+  },
+  "fire_department": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 3.5,
+   "open_subtype_at_t": 68.5
+  },
+  "fire_police_callbox": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 4.0,
+   "open_subtype_at_t": 105.0
+  },
+  "flooding": {
+   "n_subtype_prev_1d": 2.0,
+   "n_subtype_prev_7d": 15.5,
+   "open_subtype_at_t": 58.0
+  },
+  "freeway_signs_on_street": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 1.0,
+   "open_subtype_at_t": 0.0
+  },
+  "garbage_and_debris": {
+   "n_subtype_prev_1d": 949.0,
+   "n_subtype_prev_7d": 6524.0,
+   "open_subtype_at_t": 5612.0
+  },
+  "garbage_receptacles": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 2.0,
+   "open_subtype_at_t": 0.0
+  },
+  "garbage_recycling_collection": {
+   "n_subtype_prev_1d": 2.0,
+   "n_subtype_prev_7d": 12.0,
+   "open_subtype_at_t": 7.0
+  },
+  "general_maintenance_not_in_list_above": {
+   "n_subtype_prev_1d": 1.0,
+   "n_subtype_prev_7d": 11.0,
+   "open_subtype_at_t": 5.0
+  },
+  "heat_lack_of_heat": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 2.0,
+   "open_subtype_at_t": 0.0
+  },
+  "home_improvement_maintenance": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 2.0,
+   "open_subtype_at_t": 0.0
+  },
+  "homelessness_and_supportive_housing": {
+   "n_subtype_prev_1d": 90.0,
+   "n_subtype_prev_7d": 633.0,
+   "open_subtype_at_t": 555.0
+  },
+  "hot_water_lack_of_hot_water": {
+   "n_subtype_prev_1d": 0.5,
+   "n_subtype_prev_7d": 7.0,
+   "open_subtype_at_t": 0.0
+  },
+  "illegal_construction_no_permit_exceeds_permit_scope": {
+   "n_subtype_prev_1d": 1.0,
+   "n_subtype_prev_7d": 4.5,
+   "open_subtype_at_t": 14.5
+  },
+  "inadequately_maintained_building_exterior": {
+   "n_subtype_prev_1d": 1.0,
+   "n_subtype_prev_7d": 5.0,
+   "open_subtype_at_t": 4.0
+  },
+  "incident_report": {
+   "n_subtype_prev_1d": 2.0,
+   "n_subtype_prev_7d": 12.0,
+   "open_subtype_at_t": 13.0
+  },
+  "infestation_bed_bugs": {
+   "n_subtype_prev_1d": 1.0,
+   "n_subtype_prev_7d": 3.0,
+   "open_subtype_at_t": 0.0
+  },
+  "infestation_rodent_insect": {
+   "n_subtype_prev_1d": 3.0,
+   "n_subtype_prev_7d": 23.0,
+   "open_subtype_at_t": 5.5
+  },
+  "kiosk_public_toilet": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 1.5,
+   "open_subtype_at_t": 22.0
+  },
+  "landscaping": {
+   "n_subtype_prev_1d": 10.0,
+   "n_subtype_prev_7d": 66.5,
+   "open_subtype_at_t": 1359.5
+  },
+  "large_vehicle": {
+   "n_subtype_prev_1d": 10.0,
+   "n_subtype_prev_7d": 66.0,
+   "open_subtype_at_t": 360.0
+  },
+  "leaks": {
+   "n_subtype_prev_1d": 1.0,
+   "n_subtype_prev_7d": 1.0,
+   "open_subtype_at_t": 1.0
+  },
+  "light": {
+   "n_subtype_prev_1d": 11.0,
+   "n_subtype_prev_7d": 82.5,
+   "open_subtype_at_t": 91.0
+  },
+  "liner_issue_damaged_missing": {
+   "n_subtype_prev_1d": 3.0,
+   "n_subtype_prev_7d": 23.0,
+   "open_subtype_at_t": 11.0
+  },
+  "major_event_venue": {
+   "n_subtype_prev_1d": 2.0,
+   "n_subtype_prev_7d": 14.0,
+   "open_subtype_at_t": 15.0
+  },
+  "manhole_cover_off": {
+   "n_subtype_prev_1d": 2.0,
+   "n_subtype_prev_7d": 11.0,
+   "open_subtype_at_t": 32.0
+  },
+  "mechanical_equipment": {
+   "n_subtype_prev_1d": 1.0,
+   "n_subtype_prev_7d": 9.0,
+   "open_subtype_at_t": 34.5
+  },
+  "missing_side_sewer_vent_cover": {
+   "n_subtype_prev_1d": 3.0,
+   "n_subtype_prev_7d": 23.0,
+   "open_subtype_at_t": 163.0
+  },
+  "mobile_food_facility": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 2.0,
+   "open_subtype_at_t": 4.0
+  },
+  "mold_and_mildew": {
+   "n_subtype_prev_1d": 2.0,
+   "n_subtype_prev_7d": 10.5,
+   "open_subtype_at_t": 2.0
+  },
+  "moving_residential_property": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 3.0,
+   "open_subtype_at_t": 9.0
+  },
+  "multiple_postings": {
+   "n_subtype_prev_1d": 2.0,
+   "n_subtype_prev_7d": 13.0,
+   "open_subtype_at_t": 49.0
+  },
+  "municipal_transportation_agency": {
+   "n_subtype_prev_1d": 34.0,
+   "n_subtype_prev_7d": 241.5,
+   "open_subtype_at_t": 1038.0
+  },
+  "news_rack": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 2.0,
+   "open_subtype_at_t": 11.0
+  },
+  "no_left_turn": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 2.0,
+   "open_subtype_at_t": 10.0
+  },
+  "no_parking": {
+   "n_subtype_prev_1d": 1.0,
+   "n_subtype_prev_7d": 12.0,
+   "open_subtype_at_t": 70.5
+  },
+  "no_posting_date": {
+   "n_subtype_prev_1d": 1.0,
+   "n_subtype_prev_7d": 9.0,
+   "open_subtype_at_t": 36.0
+  },
+  "noise_caused_by_building_systems": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 1.0,
+   "open_subtype_at_t": 0.0
+  },
+  "not_offensive": {
+   "n_subtype_prev_1d": 187.0,
+   "n_subtype_prev_7d": 1324.0,
+   "open_subtype_at_t": 11605.0
+  },
+  "offensive": {
+   "n_subtype_prev_1d": 19.0,
+   "n_subtype_prev_7d": 137.0,
+   "open_subtype_at_t": 1154.0
+  },
+  "other": {
+   "n_subtype_prev_1d": 22.0,
+   "n_subtype_prev_7d": 154.0,
+   "open_subtype_at_t": 652.5
+  },
+  "other_enter_additional_details_below": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 3.0,
+   "open_subtype_at_t": 158.5
+  },
+  "other_excessive_noise": {
+   "n_subtype_prev_1d": 23.0,
+   "n_subtype_prev_7d": 157.0,
+   "open_subtype_at_t": 95.0
+  },
+  "other_garbage_can_repair": {
+   "n_subtype_prev_1d": 2.0,
+   "n_subtype_prev_7d": 14.0,
+   "open_subtype_at_t": 74.0
+  },
+  "other_illegal_parking": {
+   "n_subtype_prev_1d": 183.0,
+   "n_subtype_prev_7d": 1242.0,
+   "open_subtype_at_t": 4468.0
+  },
+  "other_including_abandoned_toter": {
+   "n_subtype_prev_1d": 13.0,
+   "n_subtype_prev_7d": 93.0,
+   "open_subtype_at_t": 19.0
+  },
+  "other_misc_feedback_requests": {
+   "n_subtype_prev_1d": 2.0,
+   "n_subtype_prev_7d": 15.0,
+   "open_subtype_at_t": 44.0
+  },
+  "other_parking_type": {
+   "n_subtype_prev_1d": 1.0,
+   "n_subtype_prev_7d": 11.0,
+   "open_subtype_at_t": 33.0
+  },
+  "other_reallocate": {
+   "n_subtype_prev_1d": 1.0,
+   "n_subtype_prev_7d": 5.0,
+   "open_subtype_at_t": 1.0
+  },
+  "overgrown_tree": {
+   "n_subtype_prev_1d": 14.0,
+   "n_subtype_prev_7d": 94.0,
+   "open_subtype_at_t": 2512.5
+  },
+  "paint_peeling": {
+   "n_subtype_prev_1d": 1.0,
+   "n_subtype_prev_7d": 3.0,
+   "open_subtype_at_t": 1.0
+  },
+  "park_patrol": {
+   "n_subtype_prev_1d": 15.0,
+   "n_subtype_prev_7d": 102.0,
+   "open_subtype_at_t": 167.0
+  },
+  "park_services_area": {
+   "n_subtype_prev_1d": 12.0,
+   "n_subtype_prev_7d": 91.0,
+   "open_subtype_at_t": 174.0
+  },
+  "parking_meter": {
+   "n_subtype_prev_1d": 16.0,
+   "n_subtype_prev_7d": 113.5,
+   "open_subtype_at_t": 41.0
+  },
+  "parking_on_sidewalk": {
+   "n_subtype_prev_1d": 116.0,
+   "n_subtype_prev_7d": 735.0,
+   "open_subtype_at_t": 200.0
+  },
+  "pavement_defect": {
+   "n_subtype_prev_1d": 15.0,
+   "n_subtype_prev_7d": 105.0,
+   "open_subtype_at_t": 981.0
+  },
+  "permit_parking": {
+   "n_subtype_prev_1d": 2.5,
+   "n_subtype_prev_7d": 12.0,
+   "open_subtype_at_t": 42.0
+  },
+  "plumbing_broken_leaking": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 5.0,
+   "open_subtype_at_t": 0.0
+  },
+  "pole": {
+   "n_subtype_prev_1d": 3.0,
+   "n_subtype_prev_7d": 16.0,
+   "open_subtype_at_t": 69.0
+  },
+  "port_authority": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 2.0,
+   "open_subtype_at_t": 5.0
+  },
+  "posted_on_directional_sign": {
+   "n_subtype_prev_1d": 0.5,
+   "n_subtype_prev_7d": 1.5,
+   "open_subtype_at_t": 2.5
+  },
+  "posted_on_historic_street_light": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 2.0,
+   "open_subtype_at_t": 2.0
+  },
+  "posted_on_traffic_light": {
+   "n_subtype_prev_1d": 2.0,
+   "n_subtype_prev_7d": 7.0,
+   "open_subtype_at_t": 11.0
+  },
+  "posted_over_70_days": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 2.0,
+   "open_subtype_at_t": 9.5
+  },
+  "posting_too_high_on_pole": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 0.5,
+   "open_subtype_at_t": 4.0
+  },
+  "posting_too_large_in_size": {
+   "n_subtype_prev_1d": 1.0,
+   "n_subtype_prev_7d": 2.0,
+   "open_subtype_at_t": 9.0
+  },
+  "praise_employee": {
+   "n_subtype_prev_1d": 2.0,
+   "n_subtype_prev_7d": 17.0,
+   "open_subtype_at_t": 9.0
+  },
+  "praise_service": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 1.0,
+   "open_subtype_at_t": 0.0
+  },
+  "public_health": {
+   "n_subtype_prev_1d": 10.0,
+   "n_subtype_prev_7d": 68.0,
+   "open_subtype_at_t": 63.0
+  },
+  "public_stairway_defect": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 4.0,
+   "open_subtype_at_t": 12.0
+  },
+  "public_utilities_commission": {
+   "n_subtype_prev_1d": 8.0,
+   "n_subtype_prev_7d": 49.5,
+   "open_subtype_at_t": 46.0
+  },
+  "public_works": {
+   "n_subtype_prev_1d": 42.0,
+   "n_subtype_prev_7d": 287.0,
+   "open_subtype_at_t": 1806.0
+  },
+  "pullbox": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 3.0,
+   "open_subtype_at_t": 5.0
+  },
+  "recreation_and_park_department": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 3.0,
+   "open_subtype_at_t": 9.0
+  },
+  "remove_garbage_can": {
+   "n_subtype_prev_1d": 2.0,
+   "n_subtype_prev_7d": 9.0,
+   "open_subtype_at_t": 60.0
+  },
+  "rent_board": {
+   "n_subtype_prev_1d": 4.5,
+   "n_subtype_prev_7d": 21.0,
+   "open_subtype_at_t": 6.0
+  },
+  "rv_oversize_vehicle": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 1.0,
+   "open_subtype_at_t": 0.0
+  },
+  "sewage_back-up_discharge": {
+   "n_subtype_prev_1d": 15.0,
+   "n_subtype_prev_7d": 105.0,
+   "open_subtype_at_t": 42.0
+  },
+  "sewer_odor": {
+   "n_subtype_prev_1d": 3.0,
+   "n_subtype_prev_7d": 20.0,
+   "open_subtype_at_t": 239.0
+  },
+  "sidewalk_defect": {
+   "n_subtype_prev_1d": 24.0,
+   "n_subtype_prev_7d": 159.0,
+   "open_subtype_at_t": 725.0
+  },
+  "sirens": {
+   "n_subtype_prev_1d": 3.0,
+   "n_subtype_prev_7d": 7.0,
+   "open_subtype_at_t": 2.5
+  },
+  "speed_limit": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 1.0,
+   "open_subtype_at_t": 7.0
+  },
+  "stop": {
+   "n_subtype_prev_1d": 2.0,
+   "n_subtype_prev_7d": 13.0,
+   "open_subtype_at_t": 55.0
+  },
+  "street_cleaning": {
+   "n_subtype_prev_1d": 1.0,
+   "n_subtype_prev_7d": 12.0,
+   "open_subtype_at_t": 63.0
+  },
+  "street_name": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 6.0,
+   "open_subtype_at_t": 51.0
+  },
+  "structural_maintenance": {
+   "n_subtype_prev_1d": 13.0,
+   "n_subtype_prev_7d": 87.0,
+   "open_subtype_at_t": 287.0
+  },
+  "taxi_complaint": {
+   "n_subtype_prev_1d": 1.0,
+   "n_subtype_prev_7d": 12.0,
+   "open_subtype_at_t": 2.0
+  },
+  "tipped_over": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 2.0,
+   "open_subtype_at_t": 10.0
+  },
+  "toters_left_out_24x7": {
+   "n_subtype_prev_1d": 10.0,
+   "n_subtype_prev_7d": 59.0,
+   "open_subtype_at_t": 252.0
+  },
+  "tow_away": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 5.0,
+   "open_subtype_at_t": 27.5
+  },
+  "traffic": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 4.0,
+   "open_subtype_at_t": 7.5
+  },
+  "traffic_signal": {
+   "n_subtype_prev_1d": 5.0,
+   "n_subtype_prev_7d": 44.0,
+   "open_subtype_at_t": 70.0
+  },
+  "transit_shelter_platform": {
+   "n_subtype_prev_1d": 4.0,
+   "n_subtype_prev_7d": 34.0,
+   "open_subtype_at_t": 73.0
+  },
+  "transit_shelter_platform_hazardous": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 3.0,
+   "open_subtype_at_t": 2.0
+  },
+  "urban_forestry": {
+   "n_subtype_prev_1d": 1.0,
+   "n_subtype_prev_7d": 5.0,
+   "open_subtype_at_t": 51.0
+  },
+  "utility_excavation": {
+   "n_subtype_prev_1d": 1.0,
+   "n_subtype_prev_7d": 5.0,
+   "open_subtype_at_t": 26.0
+  },
+  "vehicle_car_alarm": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 4.0,
+   "open_subtype_at_t": 0.0
+  },
+  "ventilation_inadequate_or_none": {
+   "n_subtype_prev_1d": 0.0,
+   "n_subtype_prev_7d": 2.0,
+   "open_subtype_at_t": 0.0
+  },
+  "warning": {
+   "n_subtype_prev_1d": 1.0,
+   "n_subtype_prev_7d": 8.0,
+   "open_subtype_at_t": 53.0
+  },
+  "water_leak": {
+   "n_subtype_prev_1d": 8.0,
+   "n_subtype_prev_7d": 64.0,
+   "open_subtype_at_t": 108.0
+  }
+ },
+ "service_name": {
+  "Autonomous Vehicle Complaints": {
+   "n_name_prev_7d": 16.0,
+   "open_name_at_t": 17.0
+  },
+  "Blocked Street and Sidewalk": {
+   "n_name_prev_7d": 524.0,
+   "open_name_at_t": 814.0
+  },
+  "Citations Questions Comments": {
+   "n_name_prev_7d": 1.0,
+   "open_name_at_t": 2.0
+  },
+  "Damage Property": {
+   "n_name_prev_7d": 195.0,
+   "open_name_at_t": 430.0
+  },
+  "Encampment": {
+   "n_name_prev_7d": 847.0,
+   "open_name_at_t": 2462.0
+  },
+  "General Request": {
+   "n_name_prev_7d": 1365.0,
+   "open_name_at_t": 3911.0
+  },
+  "Graffiti Private": {
+   "n_name_prev_7d": 396.0,
+   "open_name_at_t": 5301.0
+  },
+  "Graffiti Public": {
+   "n_name_prev_7d": 1048.0,
+   "open_name_at_t": 7485.0
+  },
+  "Illegal Postings": {
+   "n_name_prev_7d": 63.0,
+   "open_name_at_t": 247.0
+  },
+  "Litter Receptacle Maintenance": {
+   "n_name_prev_7d": 249.0,
+   "open_name_at_t": 688.0
+  },
+  "MTA Parking Traffic Signs High Priority": {
+   "n_name_prev_7d": 28.0,
+   "open_name_at_t": 94.0
+  },
+  "MTA Parking Traffic Signs Normal Priority": {
+   "n_name_prev_7d": 139.5,
+   "open_name_at_t": 675.5
+  },
+  "Muni Employee Feedback": {
+   "n_name_prev_7d": 122.0,
+   "open_name_at_t": 166.0
+  },
+  "Muni Service Feedback": {
+   "n_name_prev_7d": 156.0,
+   "open_name_at_t": 356.0
+  },
+  "Noise": {
+   "n_name_prev_7d": 344.0,
+   "open_name_at_t": 268.0
+  },
+  "Parking Enforcement": {
+   "n_name_prev_7d": 3903.0,
+   "open_name_at_t": 5540.0
+  },
+  "RPD General": {
+   "n_name_prev_7d": 286.0,
+   "open_name_at_t": 662.0
+  },
+  "Residential Building": {
+   "n_name_prev_7d": 109.0,
+   "open_name_at_t": 143.0
+  },
+  "Sewer": {
+   "n_name_prev_7d": 253.0,
+   "open_name_at_t": 545.0
+  },
+  "Shared Spaces Request": {
+   "n_name_prev_7d": 13.0,
+   "open_name_at_t": 147.0
+  },
+  "Sidewalk and Curb": {
+   "n_name_prev_7d": 181.0,
+   "open_name_at_t": 1092.0
+  },
+  "Street Defect": {
+   "n_name_prev_7d": 214.0,
+   "open_name_at_t": 1221.0
+  },
+  "Street and Sidewalk Cleaning": {
+   "n_name_prev_7d": 6524.0,
+   "open_name_at_t": 5615.0
+  },
+  "Streetlights": {
+   "n_name_prev_7d": 116.0,
+   "open_name_at_t": 188.0
+  },
+  "Taxi Complaint": {
+   "n_name_prev_7d": 12.0,
+   "open_name_at_t": 2.0
+  },
+  "Temporary Sign Applications": {
+   "n_name_prev_7d": 3.5,
+   "open_name_at_t": 12.5
+  },
+  "Tree Maintenance": {
+   "n_name_prev_7d": 308.0,
+   "open_name_at_t": 7519.0
+  },
+  "Volunteer Programs": {
+   "n_name_prev_7d": 1.0,
+   "open_name_at_t": 21.0
+  },
+  "Waste of Water": {
+   "n_name_prev_7d": 3.5,
+   "open_name_at_t": 3.0
+  },
+  "Water Quality": {
+   "n_name_prev_7d": 14.0,
+   "open_name_at_t": 2.0
+  }
+ },
+ "agency_responsible": {
+  "311 - Content Team": {
+   "open_agency_at_t": 102.0
+  },
+  "311 - Service Request": {
+   "open_agency_at_t": 21.0
+  },
+  "311 - Service Request Hold": {
+   "open_agency_at_t": 22.0
+  },
+  "311 - Supervisor": {
+   "open_agency_at_t": 56.0
+  },
+  "ATT - Graffiti": {
+   "open_agency_at_t": 174.0
+  },
+  "Animal Care and Control": {
+   "open_agency_at_t": 0.0
+  },
+  "Animal Care and Control - Animal Emergency": {
+   "open_agency_at_t": 0.0
+  },
+  "Animal Care and Control - Dead Animal": {
+   "open_agency_at_t": 1.5
+  },
+  "Board of Supervisors - Clerk of the Board": {
+   "open_agency_at_t": 5.0
+  },
+  "CBD - Downtown": {
+   "open_agency_at_t": 145.0
+  },
+  "CBD - SoMa West": {
+   "open_agency_at_t": 25.0
+  },
+  "CBD - Tenderloin": {
+   "open_agency_at_t": 316.0
+  },
+  "CBD - Yerba Buena": {
+   "open_agency_at_t": 15.0
+  },
+  "Clear Channel - Transit": {
+   "open_agency_at_t": 134.0
+  },
+  "DBI - Building Inspection": {
+   "open_agency_at_t": 3.0
+  },
+  "DBI - Housing Inspection": {
+   "open_agency_at_t": 13.0
+  },
+  "DBI - Inspection Services": {
+   "open_agency_at_t": 3.0
+  },
+  "DBI - Permit Services": {
+   "open_agency_at_t": 0.0
+  },
+  "DBI - Public Services": {
+   "open_agency_at_t": 1.0
+  },
+  "DBI - Support Services": {
+   "open_agency_at_t": 0.0
+  },
+  "DPH - Office of Vital Records": {
+   "open_agency_at_t": 4.0
+  },
+  "DPH - Other": {
+   "open_agency_at_t": 7.0
+  },
+  "DPH Environmental Health": {
+   "open_agency_at_t": 59.0
+  },
+  "DPH Environmental Health - Food Borne Illness": {
+   "open_agency_at_t": 1.0
+  },
+  "DPH Environmental Health - Noise": {
+   "open_agency_at_t": 35.0
+  },
+  "DPH Environmental Health - Tobacco": {
+   "open_agency_at_t": 3.0
+  },
+  "Entertainment Commission": {
+   "open_agency_at_t": 43.0
+  },
+  "Film Commission": {
+   "open_agency_at_t": 1.0
+  },
+  "Fire Hydrant Maintenance": {
+   "open_agency_at_t": 0.0
+  },
+  "HSH - Homeless Outreach Team": {
+   "open_agency_at_t": 0.5
+  },
+  "Healthy Streets Operation Center": {
+   "open_agency_at_t": 2539.0
+  },
+  "Healthy Streets Operation Center - DSS": {
+   "open_agency_at_t": 57.0
+  },
+  "Healthy Streets Operation Center - Individual": {
+   "open_agency_at_t": 32.0
+  },
+  "Healthy Streets Operation Center - Vehicle": {
+   "open_agency_at_t": 8.0
+  },
+  "MTA - Abandoned Vehicles Callback Requests": {
+   "open_agency_at_t": 59.5
+  },
+  "MTA - Abandoned Vehicles Work": {
+   "open_agency_at_t": 277.0
+  },
+  "MTA - Access/Mobility Services Received": {
+   "open_agency_at_t": 217.0
+  },
+  "MTA - Autonomous Vehicles Complaints": {
+   "open_agency_at_t": 17.0
+  },
+  "MTA - Citations/RPP": {
+   "open_agency_at_t": 0.5
+  },
+  "MTA - Color Curb": {
+   "open_agency_at_t": 11.0
+  },
+  "MTA - Livable Streets": {
+   "open_agency_at_t": 8.0
+  },
+  "MTA - Muni Feedback Received": {
+   "open_agency_at_t": 794.0
+  },
+  "MTA - OPS Received (Do Not Reallocate)": {
+   "open_agency_at_t": 15.0
+  },
+  "MTA - Paint Shop": {
+   "open_agency_at_t": 163.0
+  },
+  "MTA - PaintTheCity Utility Boxes": {
+   "open_agency_at_t": 1.0
+  },
+  "MTA - Parking Enforcement": {
+   "open_agency_at_t": 6721.5
+  },
+  "MTA - Parking Enforcement Dispatch": {
+   "open_agency_at_t": 121.0
+  },
+  "MTA - Parking Meter Shop": {
+   "open_agency_at_t": 44.0
+  },
+  "MTA - Parking and Curb Management": {
+   "open_agency_at_t": 22.0
+  },
+  "MTA - Sign Shop": {
+   "open_agency_at_t": 639.0
+  },
+  "MTA - Sign Shop High Priority": {
+   "open_agency_at_t": 71.5
+  },
+  "MTA - Signal": {
+   "open_agency_at_t": 7.0
+  },
+  "MTA - Taxi Complaints Normal": {
+   "open_agency_at_t": 6.0
+  },
+  "MTA - Temporary Sign Request Printing": {
+   "open_agency_at_t": 12.5
+  },
+  "MTA - Traffic Calming": {
+   "open_agency_at_t": 35.0
+  },
+  "MTA - Traffic Signal": {
+   "open_agency_at_t": 19.0
+  },
+  "MTA - Transportation Engineering": {
+   "open_agency_at_t": 6.0
+  },
+  "Noise Report": {
+   "open_agency_at_t": 32.0
+  },
+  "Office on Disability and Accessibility": {
+   "open_agency_at_t": 5.0
+  },
+  "PGE - Streetlights": {
+   "open_agency_at_t": 25.0
+  },
+  "PUC - Billing": {
+   "open_agency_at_t": 1.0
+  },
+  "PUC - Sewer Ops": {
+   "open_agency_at_t": 341.0
+  },
+  "PUC - Streetlights": {
+   "open_agency_at_t": 79.0
+  },
+  "PUC - Water": {
+   "open_agency_at_t": 2.0
+  },
+  "PUC - Water Graffiti": {
+   "open_agency_at_t": 173.0
+  },
+  "PUC - Water Quality": {
+   "open_agency_at_t": 1.0
+  },
+  "PUC - Water Quality Report": {
+   "open_agency_at_t": 2.0
+  },
+  "PUC - Water Waste": {
+   "open_agency_at_t": 1.0
+  },
+  "PW - Infrastructure Design and Construction": {
+   "open_agency_at_t": 10.0
+  },
+  "PW - Other": {
+   "open_agency_at_t": 10.5
+  },
+  "PW - Street Use and Mapping": {
+   "open_agency_at_t": 1905.0
+  },
+  "PW - Street and Environmental Services": {
+   "open_agency_at_t": 20942.0
+  },
+  "PW - Street and Sewer Repair": {
+   "open_agency_at_t": 699.0
+  },
+  "PW - Urban Forestry": {
+   "open_agency_at_t": 6188.0
+  },
+  "Planning": {
+   "open_agency_at_t": 31.0
+  },
+  "Police - Homeless Concerns": {
+   "open_agency_at_t": 6.0
+  },
+  "Port Authority": {
+   "open_agency_at_t": 43.0
+  },
+  "RPD - GGP": {
+   "open_agency_at_t": 80.0
+  },
+  "RPD - Golf": {
+   "open_agency_at_t": 22.0
+  },
+  "RPD - Natural Areas": {
+   "open_agency_at_t": 66.0
+  },
+  "RPD - PSA": {
+   "open_agency_at_t": 22.0
+  },
+  "RPD - Park Patrol": {
+   "open_agency_at_t": 80.0
+  },
+  "RPD - Park Service Area 1": {
+   "open_agency_at_t": 20.0
+  },
+  "RPD - Park Service Area 2": {
+   "open_agency_at_t": 21.0
+  },
+  "RPD - Park Service Area 3": {
+   "open_agency_at_t": 15.0
+  },
+  "RPD - Park Service Area 4": {
+   "open_agency_at_t": 29.0
+  },
+  "RPD - Park Service Area 5": {
+   "open_agency_at_t": 17.0
+  },
+  "RPD - Park Service Area 6": {
+   "open_agency_at_t": 22.0
+  },
+  "RPD - Park Service Area 7": {
+   "open_agency_at_t": 3.0
+  },
+  "RPD - Park Service Area 9": {
+   "open_agency_at_t": 6.0
+  },
+  "RPD - Permits": {
+   "open_agency_at_t": 2.0
+  },
+  "RPD - TMA": {
+   "open_agency_at_t": 192.0
+  },
+  "Recology - Abandoned": {
+   "open_agency_at_t": 66.0
+  },
+  "Recology - Litter": {
+   "open_agency_at_t": 38.0
+  },
+  "Recology - Noise": {
+   "open_agency_at_t": 7.0
+  },
+  "Recology - Overflowing": {
+   "open_agency_at_t": 12.0
+  },
+  "Rent Board": {
+   "open_agency_at_t": 2.0
+  },
+  "Rent Board - Fee and Housing Inventory": {
+   "open_agency_at_t": 4.0
+  },
+  "SFFD - Bureau of Fire Prevention": {
+   "open_agency_at_t": 119.0
+  },
+  "SFFD - Other": {
+   "open_agency_at_t": 76.0
+  },
+  "Shared Spaces": {
+   "open_agency_at_t": 157.0
+  },
+  "Technology - Wifi Support/Feedback": {
+   "open_agency_at_t": 196.0
+  },
+  "US Postal Service Maintenance": {
+   "open_agency_at_t": 449.0
+  }
+ }
+}
